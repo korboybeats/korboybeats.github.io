@@ -1,0 +1,23 @@
+Korboy Repo Progress
+Updated: 2026-03-25
+
+Completed
+- Created GitHub repository and converted it to the user-site repo `korboybeats.github.io`.
+- Enabled GitHub Pages at `https://korboybeats.github.io/`.
+- Added initial static repo structure: `Packages`, `Packages.gz`, `Release`, `.nojekyll`, `index.html`, `debs/`, `depictions/`.
+- Updated repo branding to `Korboy's Repo`.
+- Added repo icon assets: `icon.png`, `CydiaIcon.png`, `CydiaIcon@2x.png`.
+- Added `add-package.sh` helper to import `.deb` packages and regenerate repo indexes.
+- Fixed metadata extraction so `Packages` preserves full control metadata plus filename/size/checksums.
+- Uploaded `com.korboy.filzaenhanced_1.0.0_iphoneos-arm64.deb` to `debs/` and indexed it.
+
+Current Live URL
+- https://korboybeats.github.io/
+
+Current Package
+- FilzaEnhanced 1.0.0 (`com.korboy.filzaenhanced`)
+
+Next Steps
+- Add FLEQ package.
+- Add depictions / package artwork if desired.
+- Verify Sileo refresh/install behavior on-device.
