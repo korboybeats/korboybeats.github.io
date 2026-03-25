@@ -1,3 +1,24 @@
+Package: com.korboy.filzaenhanced
+Name: FilzaEnhanced
+Summary: All-in-One Filza Enhancements
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=18
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=18
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 49484
+Filename: debs/com.korboy.filzaenhanced_1.0.0_iphoneos-arm64.deb
+Size: 9900082
+MD5sum: 101fb55068d6e56fe5c9a88bc2c9b790
+SHA1: 0aa96c98ce218f538553eeb77b57f56205a87b47
+SHA256: 85c7fb21342ccae88878074ae5a5e64194c5a76db783063a427f12ff346c4491
+
 Package: com.korboy.fleq
 Name: FLEQ
 Description: Standalone parametric EQ with spectrum analyzer.
@@ -16,23 +37,3 @@ Size: 8148268
 MD5sum: 4c29aef1821d30d3a8d1f889fa613115
 SHA1: daff68039b99622c0178c29b8025802befa482f6
 SHA256: cc2e422806b91daaeb8e3a8f5aa8ade54c791aa9434fd09e24b7762ac308c87f
-Package: com.korboy.filzaenhanced
-Name: FilzaEnhanced
-Summary: All-in-One Filza Enhancements
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 49484
-
-Filename: debs/com.korboy.filzaenhanced_1.0.0_iphoneos-arm64.deb
-Size: 9900082
-MD5sum: 101fb55068d6e56fe5c9a88bc2c9b790
-SHA1: 0aa96c98ce218f538553eeb77b57f56205a87b47
-SHA256: 85c7fb21342ccae88878074ae5a5e64194c5a76db783063a427f12ff346c4491
-
