@@ -1,0 +1,40 @@
+Package: com.korboy.filzaenhanced
+Name: FilzaEnhanced
+Summary: All-in-One Filza Enhancements
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=18
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=18
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 49320
+Filename: debs/com.korboy.filzaenhanced_1.0.0_iphoneos-arm64.deb
+Size: 9911620
+MD5sum: 8e66074ddb5e24f8da2ba26080cf40f0
+SHA1: bd94f0311ebae362a6df34d29763903bfbe9efd9
+SHA256: 3b5e7e505a732992b556322064cb4dbf11789c3f0582a27f08ba7308d8b2bca2
+
+Package: com.korboy.fleq
+Name: FLEQ
+Description: Standalone parametric EQ with spectrum analyzer.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Icon: https://korboybeats.github.io/icons/fleq.png
+Depiction: https://korboybeats.github.io/depictions/fleq/index.html?v=15
+SileoDepiction: https://korboybeats.github.io/depictions/fleq/sileo.json?v=15
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 18844
+Filename: debs/com.korboy.fleq_1.0.0_iphoneos-arm64.deb
+Size: 8148268
+MD5sum: 4c29aef1821d30d3a8d1f889fa613115
+SHA1: daff68039b99622c0178c29b8025802befa482f6
+SHA256: cc2e422806b91daaeb8e3a8f5aa8ade54c791aa9434fd09e24b7762ac308c87f
+
