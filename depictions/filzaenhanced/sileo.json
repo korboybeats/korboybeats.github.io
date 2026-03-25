@@ -1,0 +1,70 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#48c2ff",
+  "backgroundColor": "#0f1117",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 14
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "An all-in-one premium enhancement suite for Filza!",
+          "fontWeight": "semibold",
+          "fontSize": 14,
+          "textColor": "#C6DCF8",
+          "alignment": 1,
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Must purchase in-app to use",
+          "fontWeight": "semibold",
+          "fontSize": 13,
+          "textColor": "#ffd36a",
+          "alignment": 1,
+          "usePadding": false
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 18,
+          "itemSize": "{220, 476}",
+          "screenshots": [
+            {
+              "url": "https://korboybeats.github.io/depictions/filzaenhanced/screenshots/1.png",
+              "accessibilityText": "FilzaEnhanced screenshot 1"
+            },
+            {
+              "url": "https://korboybeats.github.io/depictions/filzaenhanced/screenshots/2.png",
+              "accessibilityText": "FilzaEnhanced screenshot 2"
+            },
+            {
+              "url": "https://korboybeats.github.io/depictions/filzaenhanced/screenshots/3.png",
+              "accessibilityText": "FilzaEnhanced screenshot 3"
+            },
+            {
+              "url": "https://korboybeats.github.io/depictions/filzaenhanced/screenshots/4.png",
+              "accessibilityText": "FilzaEnhanced screenshot 4"
+            },
+            {
+              "url": "https://korboybeats.github.io/depictions/filzaenhanced/screenshots/5.png",
+              "accessibilityText": "FilzaEnhanced screenshot 5"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<div style=\"text-align:left;\"><div style=\"font-size:30px;font-weight:800;color:#48c2ff;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Thumbnail and Media Upgrades</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 12px 0;padding-left:22px;\"><li>Rich thumbnail previews for videos, photos, GIFs, PDFs, audio files, IPAs, and DEBs</li><li>Animated GIF thumbnails in list and grid views</li><li>Transport stream support for <code>.ts</code>, <code>.mts</code>, and <code>.m2ts</code> files</li><li>Built-in playback options for transport streams with temporary open or convert-and-keep MP4 workflows</li><li>Optional enlarge and aspect-fill display modes</li><li>File type badges, path controls, and persistent thumbnail caching</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#48c2ff;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Text Editor Improvements</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 12px 0;padding-left:22px;\"><li>Syntax highlighting for 60+ programming and markup languages</li><li>Built-in editor themes</li><li>Keyboard toolbar with indent, undo, redo, find, select all, copy, and paste</li><li>Adjustable font and font size</li><li>Automatic bracket completion</li><li>Custom extension-to-language associations</li><li>Smoother search highlighting and font-size adjustment behavior</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#48c2ff;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Custom Actions and Workflow Tools</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 12px 0;padding-left:22px;\"><li>Long-press custom scripts directly inside Filza</li><li>Built-in actions including Copy Path, Open Terminal Here, Sign/Verify Mach-O, Extract Archive, and Normalize Package Filename</li><li>Archive extraction support for formats including <code>.zst</code> and <code>.tar.zst</code></li><li>Conflict-safe extraction folder naming</li><li>Integrated script editor</li><li>Per-action result popup styles</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#48c2ff;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Customization and Quality of Life</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 14px 0;padding-left:22px;\"><li>Built-in themes including OLED Dark, Nord, Dracula, Monokai, Catppuccin, and more</li><li>Full custom theme editor with import/export support</li><li>Batch rename with preview, conflict detection, and validation</li><li>Swipe-to-select multiple files with automatic scrolling</li><li>Improved ownership sheet, SFTP fixes, and broader UI polish throughout Filza</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#48c2ff;line-height:1.1;margin:0 0 8px 0;text-align:center;\">Support</div><div style=\"font-size:15px;line-height:1.62;margin:0;color:#d8dfeb;text-align:center;\">Need help, want to report a bug, or have a request?</div><ul style=\"font-size:15px;line-height:1.62;margin:8px 0 0 0;padding-left:22px;\"><li><strong>Email:</strong> korboybeats@gmail.com</li><li><strong>Discord:</strong> korboybeats</li></ul></div>",
+          "useSpacing": false,
+          "useRawFormat": true,
+          "tintColor": "#48c2ff"
+        }
+      ]
+    }
+  ]
+}

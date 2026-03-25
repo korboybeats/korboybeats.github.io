@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FLEQ</title>
+  <style>
+    :root {
+      --bg: #0a0d14;
+      --panel: linear-gradient(180deg, #141b2a 0%, #0f1522 100%);
+      --panel-border: #24324a;
+      --title: #ffffff;
+      --subtitle: #cfdbf3;
+      --heading: #5b9bf5;
+      --text: #d8dfeb;
+      --code: #0b1018;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(91,155,245,0.14), transparent 34%),
+        radial-gradient(circle at top right, rgba(44,95,201,0.12), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 26px;
+    }
+    .card {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--panel);
+      border: 1px solid var(--panel-border);
+      border-radius: 22px;
+      padding: 32px 28px 38px;
+      box-shadow: 0 24px 70px rgba(0,0,0,.42);
+      text-align: left;
+    }
+    .sub {
+      color: var(--subtitle);
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+      text-align: center;
+    }
+    .price {
+      color: #ffd36a;
+      margin: 10px 0 0;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4;
+      text-align: center;
+      letter-spacing: 0.01em;
+    }
+    h2 {
+      margin: 40px 0 16px;
+      color: var(--heading);
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.12;
+      text-align: center;
+    }
+    ul {
+      padding-left: 24px;
+      margin: 0;
+    }
+    li {
+      color: var(--text);
+      line-height: 1.8;
+      font-size: 15px;
+      margin: 0;
+      list-style: disc;
+    }
+    li + li {
+      margin-top: 10px;
+    }
+    .shots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 8px;
+    }
+    .shots img {
+      width: 100%;
+      display: block;
+      border-radius: 18px;
+      border: 1px solid var(--panel-border);
+      box-shadow: 0 16px 40px rgba(0,0,0,.28);
+      background: #0c111b;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: rgba(91,155,245,0.22);
+      margin: 16px 0 18px;
+    }
+    code {
+      color: #fff;
+      background: var(--code);
+      padding: 2px 7px;
+      border-radius: 7px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="sub">A standalone system-wide parametric equalizer with a real-time spectrum analyzer.</div>
+    <div class="price">Must purchase in-app to use</div>
+
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <img src="https://korboybeats.github.io/depictions/fleq/screenshots/1.png" alt="FLEQ screenshot 1">
+      <img src="https://korboybeats.github.io/depictions/fleq/screenshots/2.png" alt="FLEQ screenshot 2">
+      <img src="https://korboybeats.github.io/depictions/fleq/screenshots/3.png" alt="FLEQ screenshot 3">
+    </div>
+
+    <h2>Fully Parametric EQ</h2>
+    <ul>
+      <li>Unlimited fully parametric bands with 9 filter types</li>
+      <li>Peak, Low/High Pass, Low/High Shelf, Band Pass, Notch, and All Pass</li>
+      <li>Precise control over frequency, Q factor, and gain</li>
+      <li>Low Pass and High Pass filters up to 48 dB/oct</li>
+      <li>Per-band bypass and left/right channel assignment for stereo shaping</li>
+      <li>Global preamp with clipping detection</li>
+    </ul>
+    <hr>
+
+    <h2>Interactive EQ Graph</h2>
+    <ul>
+      <li>Full frequency response graph from 20 Hz to 20 kHz with a ±24 dB range</li>
+      <li>Drag nodes to adjust frequency and gain in real time</li>
+      <li>Pinch a node to adjust Q factor</li>
+      <li>Double-tap to add a new band or reset an existing one</li>
+      <li>Pinch the graph to zoom into specific frequency ranges</li>
+      <li>Long-press a node for additional options</li>
+    </ul>
+    <hr>
+
+    <h2>Real-Time Spectrum Analyzer</h2>
+    <ul>
+      <li>GPU-accelerated visualizer rendered with Metal</li>
+      <li>Bars, Curve, and Heatmap modes</li>
+      <li>Customizable bar count, spacing, radius, line width, fill, and glow</li>
+      <li>Logarithmic or linear frequency scaling with adjustable range</li>
+      <li>Heatmap palettes with configurable dB range</li>
+      <li>Peak hold, decay speed, smoothing, frame rate cap, and mirror mode</li>
+    </ul>
+    <hr>
+
+    <h2>Preset System</h2>
+    <ul>
+      <li>Save and load full EQ configurations as presets</li>
+      <li>Built-in factory presets plus unlimited user presets</li>
+      <li>Assign custom SF Symbol icons for easy identification</li>
+      <li>Rename, delete, and organize from the overlay panel</li>
+      <li>Long-press the preset button for quick management</li>
+    </ul>
+    <hr>
+
+    <h2>Built-In Media Controls</h2>
+    <ul>
+      <li>Play, pause, and skip tracks without leaving the app</li>
+      <li>Monitor now-playing info while fine-tuning your EQ</li>
+    </ul>
+  </div>
+</body>
+</html>

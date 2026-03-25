@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FilzaEnhanced</title>
+  <style>
+    :root {
+      --bg: #0d1016;
+      --panel: linear-gradient(180deg, #171d29 0%, #121722 100%);
+      --panel-border: #263244;
+      --title: #ffffff;
+      --subtitle: #c6dcf8;
+      --heading: #48c2ff;
+      --text: #d8dfeb;
+      --code: #0a1018;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(72,194,255,0.12), transparent 34%),
+        radial-gradient(circle at top right, rgba(91,141,239,0.14), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 26px;
+    }
+    .card {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--panel);
+      border: 1px solid var(--panel-border);
+      border-radius: 22px;
+      padding: 34px 28px 38px;
+      box-shadow: 0 24px 70px rgba(0,0,0,.42);
+      text-align: left;
+    }
+    .sub {
+      color: var(--subtitle);
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+      text-align: center;
+    }
+    .price {
+      color: #ffd36a;
+      margin: 10px 0 0;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4;
+      text-align: center;
+      letter-spacing: 0.01em;
+    }
+    h2 {
+      margin: 42px 0 18px;
+      color: var(--heading);
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.12;
+    }
+    ul {
+      list-style: none;
+      padding-left: 24px;
+      margin: 0;
+    }
+    li {
+      color: var(--text);
+      line-height: 1.8;
+      font-size: 15px;
+      margin: 0;
+      list-style: disc;
+    }
+    li + li {
+      margin-top: 10px;
+    }
+    .shots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 8px;
+    }
+    .shots img {
+      width: 100%;
+      display: block;
+      border-radius: 18px;
+      border: 1px solid var(--panel-border);
+      box-shadow: 0 16px 40px rgba(0,0,0,.28);
+    }
+    code {
+      color: #fff;
+      background: var(--code);
+      padding: 2px 7px;
+      border-radius: 7px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="sub">An all-in-one premium enhancement suite for Filza!</div>
+    <div class="price">Must purchase in-app to use</div>
+
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <img src="https://korboybeats.github.io/depictions/filzaenhanced/screenshots/1.png" alt="FilzaEnhanced screenshot 1">
+      <img src="https://korboybeats.github.io/depictions/filzaenhanced/screenshots/2.png" alt="FilzaEnhanced screenshot 2">
+      <img src="https://korboybeats.github.io/depictions/filzaenhanced/screenshots/3.png" alt="FilzaEnhanced screenshot 3">
+      <img src="https://korboybeats.github.io/depictions/filzaenhanced/screenshots/4.png" alt="FilzaEnhanced screenshot 4">
+      <img src="https://korboybeats.github.io/depictions/filzaenhanced/screenshots/5.png" alt="FilzaEnhanced screenshot 5">
+    </div>
+
+    <h2>Thumbnail and Media Upgrades</h2>
+    <ul>
+      <li>Rich thumbnail previews for videos, photos, GIFs, PDFs, audio files, IPAs, and DEBs</li>
+      <li>Animated GIF thumbnails in list and grid views</li>
+      <li>Transport stream support for <code>.ts</code>, <code>.mts</code>, and <code>.m2ts</code> files</li>
+      <li>Built-in playback options for transport streams with temporary open or convert-and-keep MP4 workflows</li>
+      <li>Optional enlarge and aspect-fill display modes</li>
+      <li>File type badges, path controls, and persistent thumbnail caching</li>
+    </ul>
+
+    <h2>Text Editor Improvements</h2>
+    <ul>
+      <li>Syntax highlighting for 60+ programming and markup languages</li>
+      <li>Built-in editor themes</li>
+      <li>Keyboard toolbar with indent, undo, redo, find, select all, copy, and paste</li>
+      <li>Adjustable font and font size</li>
+      <li>Automatic bracket completion</li>
+      <li>Custom extension-to-language associations</li>
+      <li>Smoother search highlighting and font-size adjustment behavior</li>
+    </ul>
+
+    <h2>Custom Actions and Workflow Tools</h2>
+    <ul>
+      <li>Long-press custom scripts directly inside Filza</li>
+      <li>Built-in actions including Copy Path, Open Terminal Here, Sign/Verify Mach-O, Extract Archive, and Normalize Package Filename</li>
+      <li>Archive extraction support for formats including <code>.zst</code> and <code>.tar.zst</code></li>
+      <li>Conflict-safe extraction folder naming</li>
+      <li>Integrated script editor</li>
+      <li>Per-action result popup styles</li>
+    </ul>
+
+    <h2>Customization and Quality of Life</h2>
+    <ul>
+      <li>Built-in themes including OLED Dark, Nord, Dracula, Monokai, Catppuccin, and more</li>
+      <li>Full custom theme editor with import/export support</li>
+      <li>Batch rename with preview, conflict detection, and validation</li>
+      <li>Swipe-to-select multiple files with automatic scrolling</li>
+      <li>Improved ownership sheet, SFTP fixes, and broader UI polish throughout Filza</li>
+    </ul>
+  </div>
+</body>
+</html>

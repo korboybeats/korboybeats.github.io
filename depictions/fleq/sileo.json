@@ -1,0 +1,60 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#5b9bf5",
+  "backgroundColor": "#0f1117",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 14
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<div style=\"font-size:14px;font-weight:600;line-height:1.55;color:#CFDBF3;text-align:center;\">A standalone system-wide parametric equalizer<br>with a real-time spectrum analyzer.</div>",
+          "useSpacing": false,
+          "useRawFormat": true,
+          "tintColor": "#5b9bf5"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Must purchase in-app to use",
+          "fontWeight": "semibold",
+          "fontSize": 13,
+          "textColor": "#ffd36a",
+          "alignment": 1,
+          "usePadding": false
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 18,
+          "itemSize": "{220, 476}",
+          "screenshots": [
+            {
+              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/1.png",
+              "accessibilityText": "FLEQ screenshot 1"
+            },
+            {
+              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/2.png",
+              "accessibilityText": "FLEQ screenshot 2"
+            },
+            {
+              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/3.png",
+              "accessibilityText": "FLEQ screenshot 3"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<div style=\"text-align:left;\"><div style=\"font-size:30px;font-weight:800;color:#5b9bf5;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Fully Parametric EQ</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 12px 0;padding-left:22px;\"><li>Unlimited fully parametric bands with 9 filter types</li><li>Peak, Low/High Pass, Low/High Shelf, Band Pass, Notch, and All Pass</li><li>Precise control over frequency, Q factor, and gain</li><li>Low Pass and High Pass filters up to 48 dB/oct</li><li>Per-band bypass and left/right channel assignment for stereo shaping</li><li>Global preamp with clipping detection</li></ul><div style=\"height:1px;background:rgba(91,155,245,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#5b9bf5;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Interactive EQ Graph</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 12px 0;padding-left:22px;\"><li>Full frequency response graph from 20 Hz to 20 kHz with a \u00b124 dB range</li><li>Drag nodes to adjust frequency and gain in real time</li><li>Pinch a node to adjust Q factor</li><li>Double-tap to add a new band or reset an existing one</li><li>Pinch the graph to zoom into specific frequency ranges</li><li>Long-press a node for additional options</li></ul><div style=\"height:1px;background:rgba(91,155,245,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#5b9bf5;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Real-Time Spectrum Analyzer</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 12px 0;padding-left:22px;\"><li>GPU-accelerated visualizer rendered with Metal</li><li>Bars, Curve, and Heatmap modes</li><li>Customizable bar count, spacing, radius, line width, fill, and glow</li><li>Logarithmic or linear frequency scaling with adjustable range</li><li>Heatmap palettes with configurable dB range</li><li>Peak hold, decay speed, smoothing, frame rate cap, and mirror mode</li></ul><div style=\"height:1px;background:rgba(91,155,245,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#5b9bf5;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Preset System</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 12px 0;padding-left:22px;\"><li>Save and load full EQ configurations as presets</li><li>Built-in factory presets plus unlimited user presets</li><li>Assign custom SF Symbol icons for easy identification</li><li>Rename, delete, and organize from the overlay panel</li><li>Long-press the preset button for quick management</li></ul><div style=\"height:1px;background:rgba(91,155,245,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#5b9bf5;line-height:1.1;margin:0 0 6px 0;text-align:center;\">Built-In Media Controls</div><ul style=\"font-size:15px;line-height:1.58;margin:0 0 14px 0;padding-left:22px;\"><li>Play, pause, and skip tracks without leaving the app</li><li>Monitor now-playing info while fine-tuning your EQ</li></ul><div style=\"height:1px;background:rgba(91,155,245,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#5b9bf5;line-height:1.1;margin:0 0 8px 0;text-align:center;\">Support</div><div style=\"font-size:15px;line-height:1.62;margin:0;color:#d8dfeb;text-align:center;\">Need help, want to report a bug, or have a request?</div><ul style=\"font-size:15px;line-height:1.62;margin:8px 0 0 0;padding-left:22px;\"><li><strong>Email:</strong> korboybeats@gmail.com</li><li><strong>Discord:</strong> korboybeats</li></ul></div>",
+          "useSpacing": false,
+          "useRawFormat": true,
+          "tintColor": "#5b9bf5"
+        }
+      ]
+    }
+  ]
+}
