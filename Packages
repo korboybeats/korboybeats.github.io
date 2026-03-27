@@ -11,9 +11,9 @@ Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 52368
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=18
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=19
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=18
-Filename: debs/com.korboy.filzaenhanced_1.0.0_iphoneos-arm64.deb
+Filename: https://license.korboybeats.workers.dev/repo/download/com.korboy.filzaenhanced/1.0.0
 Size: 9997928
 MD5sum: 44aadeaafe83b42a650c8c23a5d67a05
 SHA1: 2568e44f2b038a7098f79f8ca2611f2545c18d4c
