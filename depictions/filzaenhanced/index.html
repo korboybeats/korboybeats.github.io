@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FilzaEnhanced</title>
+  <link rel="stylesheet" href="https://korboybeats.github.io/assets/depiction-package-info.css?v=1">
   <style>
     :root {
       --bg: #0d1016;
@@ -52,35 +53,6 @@
       text-align: center;
       letter-spacing: 0.01em;
     }
-    .pkginfo {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 12px;
-      margin: 20px 0 6px;
-    }
-    .pkgcard {
-      background: rgba(10, 16, 24, 0.6);
-      border: 1px solid var(--panel-border);
-      border-radius: 16px;
-      padding: 14px 14px 13px;
-    }
-    .pkglabel {
-      display: block;
-      color: #8ea3bf;
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-    }
-    .pkgvalue {
-      display: block;
-      color: #fff;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 1.35;
-      word-break: break-word;
-    }
     h2 {
       margin: 42px 0 18px;
       color: var(--heading);
@@ -125,28 +97,17 @@
     }
   </style>
 </head>
-<body>
+<body
+  data-package-id="com.korboy.filzaenhanced"
+  data-package-version="1.0.0"
+  data-package-author="Korboy"
+  data-package-section="Tweaks"
+  data-package-api-base="https://license.korboybeats.workers.dev"
+>
   <div class="card">
     <div class="sub">An all-in-one premium enhancement suite for Filza!</div>
     <div class="price">Must purchase in-app to use</div>
-    <div class="pkginfo">
-      <div class="pkgcard">
-        <span class="pkglabel">Version</span>
-        <span class="pkgvalue" id="pkg-version">1.0.0</span>
-      </div>
-      <div class="pkgcard">
-        <span class="pkglabel">Author</span>
-        <span class="pkgvalue" id="pkg-author">Korboy</span>
-      </div>
-      <div class="pkgcard">
-        <span class="pkglabel">Section</span>
-        <span class="pkgvalue" id="pkg-section">Tweaks</span>
-      </div>
-      <div class="pkgcard">
-        <span class="pkglabel">Downloads</span>
-        <span class="pkgvalue" id="pkg-downloads">0</span>
-      </div>
-    </div>
+    <div class="kb-package-info-anchor"></div>
 
     <h2>Screenshots</h2>
     <div class="shots">
@@ -197,30 +158,6 @@
       <li>Improved ownership sheet, SFTP fixes, and broader UI polish throughout Filza</li>
     </ul>
   </div>
-  <script>
-    (async () => {
-      const packageId = 'com.korboy.filzaenhanced';
-      const setText = (id, value) => {
-        const el = document.getElementById(id);
-        if (el && value) el.textContent = value;
-      };
-      const formatCount = (value) => {
-        const num = Number(value || 0);
-        return Number.isFinite(num) ? num.toLocaleString('en-US') : '0';
-      };
-      try {
-        const resp = await fetch(`https://license.korboybeats.workers.dev/api/v1/repo/package/${encodeURIComponent(packageId)}/stats`, {
-          cache: 'no-store'
-        });
-        if (!resp.ok) return;
-        const data = await resp.json();
-        setText('pkg-version', data.latest_version || '1.0.0');
-        setText('pkg-author', data.author || 'Korboy');
-        setText('pkg-section', data.section || 'Tweaks');
-        setText('pkg-downloads', formatCount(data.total_downloads));
-      } catch (_) {
-      }
-    })();
-  </script>
+  <script src="https://korboybeats.github.io/assets/depiction-package-info.js?v=1" defer></script>
 </body>
 </html>

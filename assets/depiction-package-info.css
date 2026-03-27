@@ -1,0 +1,32 @@
+.kb-package-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 20px 0 6px;
+}
+
+.kb-package-info__card {
+  background: rgba(10, 16, 24, 0.6);
+  border: 1px solid var(--panel-border, #263244);
+  border-radius: 16px;
+  padding: 14px 14px 13px;
+}
+
+.kb-package-info__label {
+  display: block;
+  color: #8ea3bf;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.kb-package-info__value {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  word-break: break-word;
+}
