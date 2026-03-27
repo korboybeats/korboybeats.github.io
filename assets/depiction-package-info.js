@@ -6,7 +6,7 @@
   const anchor = document.querySelector(".kb-package-info-anchor");
   if (!packageId || !anchor) return;
 
-  const apiBase = (root.dataset.packageApiBase || "https://license.korboybeats.workers.dev").replace(/\/+$/, "");
+  const apiBase = (root.dataset.packageApiBase || "https://repo.korboybeats.workers.dev").replace(/\/+$/, "");
   const defaults = {
     version: (root.dataset.packageVersion || "").trim() || "—",
     author: (root.dataset.packageAuthor || "").trim() || "—",
@@ -52,7 +52,7 @@
   panel.appendChild(card("Downloads", defaults.downloads, "kb-package-downloads"));
   anchor.replaceWith(panel);
 
-  fetch(`${apiBase}/api/v1/repo/package/${encodeURIComponent(packageId)}`, {
+  fetch(`${apiBase}/api/v1/package/${encodeURIComponent(packageId)}`, {
     cache: "no-store",
   })
     .then((resp) => (resp.ok ? resp.json() : null))
