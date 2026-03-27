@@ -53,13 +53,6 @@
           "useSpacing": false,
           "useRawFormat": true,
           "tintColor": "#5b9bf5"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "<div style=\"text-align:left;\"><div style=\"height:1px;background:rgba(91,155,245,0.22);margin:10px 0 14px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#5b9bf5;line-height:1.1;margin:0 0 8px 0;text-align:center;\">Package Info</div><ul style=\"font-size:15px;line-height:1.62;margin:0;padding-left:22px;\"><li><strong>Version:</strong> 1.0.0</li><li><strong>Author:</strong> Korboy</li><li><strong>Section:</strong> Tweaks</li></ul></div>",
-          "useSpacing": false,
-          "useRawFormat": true,
-          "tintColor": "#5b9bf5"
         }
       ]
     }
