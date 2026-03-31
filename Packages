@@ -9,13 +9,13 @@ Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64
 Version: 1.0.0
-Installed-Size: 48188
+Installed-Size: 55076
 Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
 Filename: debs/com.korboy.filzaenhanced_1.0.0_iphoneos-arm64.deb
-Size: 10247060
-MD5sum: ad7f4b672464b434f1f543e383539b73
-SHA1: 2b6ee445749a4b5048568ddfc56e7d1b8d2210f8
-SHA256: 11105bfbd172d6dbd7e3fd3732389462e48413a88a5b1420b40f6616c459f06c
+Size: 10349394
+MD5sum: 55c1630708d22c9b6c7e69aaaf1a3a13
+SHA1: 9aaac1201a7e57a7e60ad90f29f13d53f0d051c5
+SHA256: b6942354c234a752641c42de46dfdb8ce7cc0b6ce6d62ccc1ea891bd08a22d79
 
