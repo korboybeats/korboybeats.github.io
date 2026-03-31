@@ -1,21 +1,41 @@
 Package: com.korboy.filzaenhanced
-Name: FilzaEnhanced
-Summary: All-in-One Filza Enhancements
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Version: 1.0.0
+Architecture: iphoneos-arm
 Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
+Installed-Size: 55076
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 48188
+Filename: debs/com.korboy.filzaenhanced_1.0.0_iphoneos-arm.deb
+Size: 11809712
+MD5sum: 0c0460214952a5dd1d3f0efa3f40583a
+SHA1: 2af87f367e5106f206ae9031f20979d940cf8389
+SHA256: f369d64e83281007e04c5b3b41954e2c06fc0fafa57b127923d6e09eca81e1fa
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
 Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Summary: All-in-One Filza Enhancements
+
+Package: com.korboy.filzaenhanced
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 48188
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Filename: debs/com.korboy.filzaenhanced_1.0.0_iphoneos-arm64.deb
 Size: 10247060
 MD5sum: ad7f4b672464b434f1f543e383539b73
 SHA1: 2b6ee445749a4b5048568ddfc56e7d1b8d2210f8
 SHA256: 11105bfbd172d6dbd7e3fd3732389462e48413a88a5b1420b40f6616c459f06c
-
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Summary: All-in-One Filza Enhancements
