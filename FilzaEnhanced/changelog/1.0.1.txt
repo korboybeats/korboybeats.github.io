@@ -1,0 +1,4 @@
+FilzaEnhanced 1.0.1
+
+- Improved custom Filza App Theme management
+- Added multi-language support for FilzaEnhanced
