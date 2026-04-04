@@ -65,6 +65,32 @@
           "tintColor": "#48c2ff"
         }
       ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 14
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "FilzaEnhanced 1.0.1",
+          "fontWeight": "bold",
+          "fontSize": 20,
+          "textColor": "#48c2ff",
+          "alignment": 1,
+          "usePadding": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Improved custom Filza App Theme management\n- Added multi-language support for FilzaEnhanced",
+          "useSpacing": false,
+          "useRawFormat": false,
+          "tintColor": "#48c2ff"
+        }
+      ]
     }
   ]
 }
