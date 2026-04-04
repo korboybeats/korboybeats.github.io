@@ -84,6 +84,10 @@
           "usePadding": false
         },
         {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "<ul style=\"margin:0;padding-left:22px;\"><li style=\"margin-bottom:12px;\">Improved custom Filza App Theme management</li><li>Added multi-language support for FilzaEnhanced</li></ul>",
           "useSpacing": false,
