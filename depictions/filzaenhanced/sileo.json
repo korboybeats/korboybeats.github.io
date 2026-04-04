@@ -76,7 +76,7 @@
         },
         {
           "class": "DepictionLabelView",
-          "text": "FilzaEnhanced 1.0.1",
+          "text": "v1.0.1",
           "fontWeight": "bold",
           "fontSize": 20,
           "textColor": "#48c2ff",
@@ -85,9 +85,9 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Improved custom Filza App Theme management\n- Added multi-language support for FilzaEnhanced",
+          "markdown": "<ul style=\"margin:0;padding-left:22px;\"><li style=\"margin-bottom:12px;\">Improved custom Filza App Theme management</li><li>Added multi-language support for FilzaEnhanced</li></ul>",
           "useSpacing": false,
-          "useRawFormat": false,
+          "useRawFormat": true,
           "tintColor": "#48c2ff"
         }
       ]
