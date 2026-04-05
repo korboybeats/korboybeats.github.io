@@ -89,7 +89,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "<ul style=\"margin:0;padding-left:22px;\"><li style=\"margin-bottom:12px;\">Improved custom Filza App Theme management</li><li>Added multi-language support for FilzaEnhanced</li></ul>",
+          "markdown": "<ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Improved custom Filza App Theme management</li><li style=\"margin-top:10px;\">Added multi-language support for FilzaEnhanced</li></ul>",
           "useSpacing": false,
           "useRawFormat": true,
           "tintColor": "#48c2ff"
