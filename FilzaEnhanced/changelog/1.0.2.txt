@@ -1,0 +1,4 @@
+FilzaEnhanced 1.0.2
+
+- Added Brazilian Portuguese support
+- Improved activation attempt timeout handling
