@@ -76,7 +76,7 @@
         },
         {
           "class": "DepictionLabelView",
-          "text": "v1.0.1",
+          "text": "v1.0.2",
           "fontWeight": "bold",
           "fontSize": 20,
           "textColor": "#48c2ff",
@@ -89,7 +89,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "<ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Improved custom Filza App Theme management</li><li style=\"margin-top:10px;\">Added multi-language support for FilzaEnhanced</li></ul>",
+          "markdown": "<ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added Brazilian Portuguese support</li><li style=\"margin-top:10px;\">Improved activation attempt timeout handling</li></ul>",
           "useSpacing": false,
           "useRawFormat": true,
           "tintColor": "#48c2ff"
