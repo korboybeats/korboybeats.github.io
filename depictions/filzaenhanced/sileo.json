@@ -89,7 +89,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "<ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added Brazilian Portuguese support</li><li style=\"margin-top:10px;\">Improved activation attempt timeout handling</li></ul>",
+          "markdown": "<ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added Brazilian Portuguese support</li></ul>",
           "useSpacing": false,
           "useRawFormat": true,
           "tintColor": "#48c2ff"
