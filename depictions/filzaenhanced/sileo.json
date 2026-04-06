@@ -75,21 +75,8 @@
           "spacing": 14
         },
         {
-          "class": "DepictionLabelView",
-          "text": "v1.0.2",
-          "fontWeight": "bold",
-          "fontSize": 20,
-          "textColor": "#48c2ff",
-          "alignment": 1,
-          "usePadding": false
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 10
-        },
-        {
           "class": "DepictionMarkdownView",
-          "markdown": "<ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added Brazilian Portuguese support</li></ul>",
+          "markdown": "<div style=\"font-size:20px;font-weight:700;color:#48c2ff;line-height:1.2;margin:0 0 10px 0;text-align:center;\">v1.0.2</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added Brazilian Portuguese support</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:16px 0 16px 0;\"></div><div style=\"font-size:20px;font-weight:700;color:#48c2ff;line-height:1.2;margin:0 0 10px 0;text-align:center;\">v1.0.1</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Improved custom Filza App Theme management</li><li style=\"margin-top:10px;\">Added multi-language support for FilzaEnhanced</li></ul>",
           "useSpacing": false,
           "useRawFormat": true,
           "tintColor": "#48c2ff"
