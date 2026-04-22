@@ -1,6 +1,6 @@
 FilzaEnhanced 1.0.3
 
-- Request a free trial
+- Try before you buy — request a free trial from the license screen
 - Added native Roothide support
 - Reworked Custom Actions with Built-in and Scripts sections
 - Added built-in actions for faster execution (Copy Path, Extract Archive, Normalize Package Filename, Sign/Verify Mach-O)
