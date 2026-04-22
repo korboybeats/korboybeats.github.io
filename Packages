@@ -10,7 +10,7 @@ Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzas
 Architecture: iphoneos-arm64
 Version: 1.0.3
 Installed-Size: 69776
-Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
 Filename: debs/com.korboy.filzaenhanced_1.0.3_iphoneos-arm64.deb
@@ -31,7 +31,7 @@ Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzas
 Architecture: iphoneos-arm64e
 Version: 1.0.3
 Installed-Size: 69404
-Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
 Filename: debs/com.korboy.filzaenhanced_1.0.3_iphoneos-arm64e.deb
