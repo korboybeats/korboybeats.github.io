@@ -12,6 +12,7 @@ Version: 1.0.3
 Installed-Size: 69776
 Icon: file:///var/jb/Library/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
 Filename: debs/com.korboy.filzaenhanced_1.0.3_iphoneos-arm64.deb
 Size: 13448368
 MD5sum: 172422cd3d4abcf29f2407e88345947d
