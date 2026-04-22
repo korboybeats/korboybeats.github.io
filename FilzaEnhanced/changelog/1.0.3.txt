@@ -1,0 +1,34 @@
+FilzaEnhanced 1.0.3
+
+- Request a free trial
+- Added native Roothide support
+- Reworked Custom Actions with Built-in and Scripts sections
+- Added built-in actions for faster execution (Copy Path, Extract Archive, Normalize Package Filename, Sign/Verify Mach-O)
+- Added Install DEB and Uninstall DEB built-in actions via native dpkg
+- Added Custom Actions as a toggleable Favorites entry
+- Themed Custom Actions popup, banner, and loading HUD with Filza App Theme colors
+- Improved Favorites reorder stability and system-favorite handling
+- Improved text-editor search highlight behavior and navigation performance
+- Added View UDID button to license popup (both activated and unactivated states)
+- Added Reset Settings button to restore all FilzaEnhanced settings to defaults
+- Added Backup & Restore for exporting and importing FilzaEnhanced configurations
+- Added Language Associations sort system and search
+- Added File Associations search bar
+- Fixed Language Associations showing empty when no custom extensions were saved
+- Fixed Settings row titles changing after navigating into sub-settings
+- Fixed filename associations (Makefile, Dockerfile, etc.) not saving viewer changes
+- Fixed user-added file associations not persisting after exiting settings
+- Fixed Quick Upload to GoFile after their API change
+- Fixed WebDAV server IP not displaying in settings
+- Added Turkish localization
+- Migrated FilzaEnhanced data paths under /var/mobile/Library/Filza/FilzaEnhanced
+- Moved FilzaEnhanced bundle/resources to /var/jb/Library/Application Support/FilzaEnhanced/FilzaEnhanced.bundle
+
+FilzaEnhanced 1.0.2
+
+- Added Brazilian Portuguese support
+
+FilzaEnhanced 1.0.1
+
+- Improved custom Filza App Theme management
+- Added multi-language support for FilzaEnhanced
