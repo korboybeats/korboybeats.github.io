@@ -8,16 +8,16 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64
-Version: 1.0.3
-Installed-Size: 70880
+Version: 1.0.4
+Installed-Size: 71428
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.3_iphoneos-arm64.deb
-Size: 13418830
-MD5sum: 7df49d7b4e2debc4c85c3901a88a2a9f
-SHA1: 30f5451212b6a6d508ba8da78aa961dfbb37a369
-SHA256: bd63d9c35ea8e918f3b651eff4f914669f43fc5c98744ad8bcc1ec25ddd26590
+Filename: debs/com.korboy.filzaenhanced_1.0.4_iphoneos-arm64.deb
+Size: 13440060
+MD5sum: 9489b67869abe3135f4d2312a5e8a18a
+SHA1: 12a932269c3943a00b97ad4bb6412fc0f1d2513c
+SHA256: 89d548b27449731ba4b9cf4219b77b44efb28d1bb08d27f02758c5a93f7308d8
 
 Package: com.korboy.filzaenhanced
 Name: FilzaEnhanced
@@ -29,14 +29,14 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64e
-Version: 1.0.3
-Installed-Size: 69548
+Version: 1.0.4
+Installed-Size: 71852
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.3_iphoneos-arm64e.deb
-Size: 13339954
-MD5sum: e4111ad96aa53e056e031e46f6b7efd1
-SHA1: 73963f911cf7af3a50101ceb7161932d099851f5
-SHA256: 906c857c33a139be9f43aff8ab8993c3158a49f9e67bc3b417a009a19217cfff
+Filename: debs/com.korboy.filzaenhanced_1.0.4_iphoneos-arm64e.deb
+Size: 13445532
+MD5sum: 7d2b6dc95aa257faa41077472667f03a
+SHA1: 646e5f8c7ac1279f30a710f446372c1179ea9caa
+SHA256: 988428e63028312f483e4d3c083b5f326037ce54b7743216626c42078a89c503
 
