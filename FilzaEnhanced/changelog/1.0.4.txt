@@ -1,0 +1,11 @@
+FilzaEnhanced 1.0.4
+
+- Custom Actions scripts and built-ins now run with full root privileges
+- Themed Custom Actions loading and result popups
+- Added "Theme Folder Icons" toggle on the App Theme page
+- Deb Installer viewer now follows the App Theme
+- iOS Light/Dark mode now follows the active theme automatically
+- Fixed bottom toolbar colors and icon visibility across theme switches
+- Fixed grouped-table separator lines not updating on theme switch
+- iCloud-stored .filzaenhancedconfig files now restore correctly through Backup & Restore
+- Fixed selected language not applying on Roothide (was always English)
