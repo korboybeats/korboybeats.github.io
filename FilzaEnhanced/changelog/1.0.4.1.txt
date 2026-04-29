@@ -1,0 +1,8 @@
+FilzaEnhanced 1.0.4.1
+
+- Translated dozens more buttons and dialogs in your selected language across the Custom Actions page, Settings, License popup, Backup, and File Associations
+- Clearing the Name field on a built-in action now restores its localized default
+- Fixed IPA and DEB icons not loading on the Recents page (was stuck on a spinner)
+- Tapping a file on the Recents page now navigates to the file and flashes its row to highlight it
+- Settings: swapped the order of Custom Actions and Language Associations
+- Replaced the Pasteboard toolbar button popup with a themed popup matching the More menu style
