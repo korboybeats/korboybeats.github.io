@@ -1,0 +1,13 @@
+FilzaEnhanced 1.0.5
+
+- Reworked Filza's file row layout for cleaner size, permissions, info button, chevron, and FilzaDirProbe folder size alignment across devices and themes
+- Fixed a stock Filza issue where the Edit mode Select All button could turn black after toggling it off
+- New toggle on the Filza App Theme page to optionally theme FilzaDirProbe folder size numbers (default white; toggle is greyed out if FilzaDirProbe is not installed)
+- Search results now support Edit/Done, Select All, and a Recursive search toggle
+- Recursive search results now show the parent folder path, making duplicate filenames easier to identify
+- New Text Editor sidebar toggle to enable or disable the keyboard toolbar
+- Large text files now show a themed syntax-loading indicator while highlighting is being applied
+- Fixed More menu panel positioning across different devices and system languages
+- Improved IPA, TIPA, and DEB icons across file lists, search, grid view, and Recents
+- DEB files now show FilzaEnhanced's bundled default DEB icon while thumbnails are loading or unavailable
+- Fixed Recents page icon sizing, text layout, text colors, and fallback-icon row shifting
