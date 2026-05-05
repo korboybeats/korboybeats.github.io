@@ -1,0 +1,9 @@
+FilzaEnhanced 1.0.5.2
+
+- Added the ability to star file rows from the swipe menu, keeping starred files pinned to the top of the list regardless of sort mode and showing a star badge on the file icon
+- Favorites can now use custom icons, including SF Symbols, Filza icons, themed single-letter icons, and original or themed icon colors
+- Favorites can now be renamed directly from the Favorites page by swiping left and tapping Rename
+- Quick Upload is now available as a Custom Actions built-in
+- Added haptic feedback when tapping the List/Grid view toggle
+- Added haptic feedback when selecting a User or Group on the Ownership page
+- Improved the Ownership page User/Group picker: scrolling no longer bounces at the top or bottom
