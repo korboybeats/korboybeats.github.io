@@ -1,0 +1,3 @@
+FilzaEnhanced 1.0.5.1
+
+- Minor under-the-hood fixes and stability improvements
