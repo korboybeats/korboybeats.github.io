@@ -47,16 +47,32 @@ Description: yt-dlp for jailbroken rootless iOS
 Maintainer: Korboy <korboybeats@gmail.com>
 Author: Korboy <korboybeats@gmail.com>
 Section: Multimedia
-Depends: xyz.cypwn.python314, ffmpeg
+Depends: xyz.cypwn.python314, ffmpeg, com.korboy.quickjs-ng
 Conflicts: yt-dlp
 Architecture: iphoneos-arm64
 Version: 2026.03.17
 Icon: https://korboybeats.github.io/icons/yt-dlp.png
 Filename: debs/com.korboy.yt-dlp_2026.03.17_iphoneos-arm64.deb
-Size: 2343498
-MD5sum: 16042c6d82b5870a8ad8da5000618f81
-SHA1: c229ebe0d7724ba8ac4b5d611478b30c0f4d5de5
-SHA256: e63561a9cfdd1b75b650c57d35f59c23e4641b93939a7a1aea340afe00480ff4
+Size: 2343152
+MD5sum: cb5db051dafa1a678ae2aba5b37e250e
+SHA1: 63e13bfccee8eb815abe1db6b48e95b6f6837daa
+SHA256: 903448463a5316b3765016276814ae1fdad02d642444e1aaf5241e621b359055
 Priority: optional
 Provides: yt-dlp
 Replaces: yt-dlp
+
+Package: com.korboy.quickjs-ng
+Name: QuickJS-ng
+Summary: JavaScript runtime for yt-dlp
+Description: QuickJS-ng runtime for rootless iOS
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Interpreters
+Architecture: iphoneos-arm64
+Version: 0.14.0
+Filename: debs/com.korboy.quickjs-ng_0.14.0_iphoneos-arm64.deb
+Size: 435692
+MD5sum: 71a1b30d99f3c26f9ca57059488a26ea
+SHA1: 66b7aaa4c24cdc4b20bc157ad8e7703c860c67f8
+SHA256: ad3c3402f491d7ed696be2aa9f3f2bae43a8d2723c4d977889c0c1327566b72e
+Priority: optional
