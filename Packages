@@ -40,3 +40,23 @@ MD5sum: e95de9f8fac88bf07f1ae08669e78e5a
 SHA1: d9919b47623f062f9bbb59df87d98911f8a965c1
 SHA256: 3a16297a49dfd5eb179d30d2c11d5f2d770fef3fdbad77df58dbee85a7cba966
 
+Package: com.korboy.yt-dlp
+Name: yt-dlp
+Summary: Command-line video downloader
+Description: yt-dlp for jailbroken rootless iOS
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Multimedia
+Depends: xyz.cypwn.python314, ffmpeg
+Conflicts: yt-dlp
+Architecture: iphoneos-arm64
+Version: 2026.03.17
+Icon: https://korboybeats.github.io/icons/yt-dlp.png
+Filename: debs/com.korboy.yt-dlp_2026.03.17_iphoneos-arm64.deb
+Size: 2343498
+MD5sum: 16042c6d82b5870a8ad8da5000618f81
+SHA1: c229ebe0d7724ba8ac4b5d611478b30c0f4d5de5
+SHA256: e63561a9cfdd1b75b650c57d35f59c23e4641b93939a7a1aea340afe00480ff4
+Priority: optional
+Provides: yt-dlp
+Replaces: yt-dlp
