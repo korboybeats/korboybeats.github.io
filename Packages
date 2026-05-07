@@ -8,16 +8,16 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64
-Version: 1.0.5.1
-Installed-Size: 76232
+Version: 1.0.6
+Installed-Size: 75128
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.5.1_iphoneos-arm64.deb
-Size: 14511734
-MD5sum: d4a6c52fa1d8684916760423c22401ec
-SHA1: dd46572967cb62b143a3dd2a1b10e3b3ae655563
-SHA256: b0c6d0258658509196d8c3be0d0adf56de4a678d5dd3f491602abc7ae25e313e
+Filename: debs/com.korboy.filzaenhanced_1.0.6_iphoneos-arm64.deb
+Size: 15064922
+MD5sum: 75c89fa3fbb6ba0d6f34222f948726a9
+SHA1: e070de4cbee59526f4e0d8f183684e48c4702c4e
+SHA256: 4c2f410381eb1cc172c088d224f4d1f088e844b1e4b4c91a8a1a52e5993b9ca1
 
 Package: com.korboy.filzaenhanced
 Name: FilzaEnhanced
@@ -29,14 +29,14 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64e
-Version: 1.0.5.1
-Installed-Size: 74820
+Version: 1.0.6
+Installed-Size: 75320
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.5.1_iphoneos-arm64e.deb
-Size: 14571224
-MD5sum: 00b607a799834014ee80e033f3f5b5a0
-SHA1: 20619f974e66f40a68ea2a1f4129d8cfe0500286
-SHA256: beb52020a583a890b3142d6e96cd2f8f433a90d636808bdca5578145e481de3c
+Filename: debs/com.korboy.filzaenhanced_1.0.6_iphoneos-arm64e.deb
+Size: 15256700
+MD5sum: e95de9f8fac88bf07f1ae08669e78e5a
+SHA1: d9919b47623f062f9bbb59df87d98911f8a965c1
+SHA256: 3a16297a49dfd5eb179d30d2c11d5f2d770fef3fdbad77df58dbee85a7cba966
 
