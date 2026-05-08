@@ -1,45 +1,3 @@
-Package: com.korboy.filzaenhanced
-Name: FilzaEnhanced
-Summary: All-in-One Filza Enhancements
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Architecture: iphoneos-arm64
-Version: 1.0.6
-Installed-Size: 75128
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.6_iphoneos-arm64.deb
-Size: 15064922
-MD5sum: 75c89fa3fbb6ba0d6f34222f948726a9
-SHA1: e070de4cbee59526f4e0d8f183684e48c4702c4e
-SHA256: 4c2f410381eb1cc172c088d224f4d1f088e844b1e4b4c91a8a1a52e5993b9ca1
-
-Package: com.korboy.filzaenhanced
-Name: FilzaEnhanced
-Summary: All-in-One Filza Enhancements
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Architecture: iphoneos-arm64e
-Version: 1.0.6
-Installed-Size: 75320
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.6_iphoneos-arm64e.deb
-Size: 15256700
-MD5sum: e95de9f8fac88bf07f1ae08669e78e5a
-SHA1: d9919b47623f062f9bbb59df87d98911f8a965c1
-SHA256: 3a16297a49dfd5eb179d30d2c11d5f2d770fef3fdbad77df58dbee85a7cba966
-
 Package: com.korboy.yt-dlp
 Name: yt-dlp
 Description: yt-dlp for jailbroken rootless iOS
@@ -72,4 +30,46 @@ MD5sum: 5a80a6ae72d2b6c04dccda7e4b0711cd
 SHA1: 6904af1b13d051d36591dbb1dc7ba2161d45f114
 SHA256: 523842beb5984244bfb6667531f6c04cc138deb7e1860aa29c42a02749e74be3
 Priority: optional
+
+Package: com.korboy.filzaenhanced
+Name: FilzaEnhanced
+Summary: All-in-One Filza Enhancements
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Architecture: iphoneos-arm64
+Version: 1.0.6.1
+Installed-Size: 76052
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Filename: debs/com.korboy.filzaenhanced_1.0.6.1_iphoneos-arm64.deb
+Size: 15296976
+MD5sum: b48e7d813c2c5c7d97a98f3bc8649e47
+SHA1: daf9d05a99800cbf95e7d4a8872cbc21293a8ce9
+SHA256: 1acd712f6df54309a70e882bcd1f78eb7403a5a9ab7928146d792d735999f73a
+
+Package: com.korboy.filzaenhanced
+Name: FilzaEnhanced
+Summary: All-in-One Filza Enhancements
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Architecture: iphoneos-arm64e
+Version: 1.0.6.1
+Installed-Size: 70008
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Filename: debs/com.korboy.filzaenhanced_1.0.6.1_iphoneos-arm64e.deb
+Size: 15189224
+MD5sum: 7a74d10f3b263f8727a6908bfb6ce83e
+SHA1: 76265ab9a1c9aa7c4d070ba55e8881f10f1df679
+SHA256: aa637aade0dfddac620a78c366c8dac5514d273fe9bc1fb4bc053829c429ba98
 
