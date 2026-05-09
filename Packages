@@ -41,35 +41,13 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64
-Version: 1.0.6.1
-Installed-Size: 76052
+Version: 1.0.6.2
+Installed-Size: 77072
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.6.1_iphoneos-arm64.deb
-Size: 15296976
-MD5sum: b48e7d813c2c5c7d97a98f3bc8649e47
-SHA1: daf9d05a99800cbf95e7d4a8872cbc21293a8ce9
-SHA256: 1acd712f6df54309a70e882bcd1f78eb7403a5a9ab7928146d792d735999f73a
-
-Package: com.korboy.filzaenhanced
-Name: FilzaEnhanced
-Summary: All-in-One Filza Enhancements
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Architecture: iphoneos-arm64e
-Version: 1.0.6.1
-Installed-Size: 70008
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.6.1_iphoneos-arm64e.deb
-Size: 15189224
-MD5sum: 7a74d10f3b263f8727a6908bfb6ce83e
-SHA1: 76265ab9a1c9aa7c4d070ba55e8881f10f1df679
-SHA256: aa637aade0dfddac620a78c366c8dac5514d273fe9bc1fb4bc053829c429ba98
-
+Filename: debs/com.korboy.filzaenhanced_1.0.6.2_iphoneos-arm64.deb
+Size: 15808182
+MD5sum: c9344a26d604b0f7764f9263845e6f67
+SHA1: b47f46bf6cb16f065990015b84e2689c96655347
+SHA256: c9630c508629c02dc961d1067f746c5359a8f6215469b3f2d20d9a388a1c5af8
