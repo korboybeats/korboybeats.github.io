@@ -1,3 +1,4 @@
 FilzaEnhanced 1.0.6.3
 
+- Added the ability to create a new file from the Edit mode plus button
 - Improved file and folder opening behavior
