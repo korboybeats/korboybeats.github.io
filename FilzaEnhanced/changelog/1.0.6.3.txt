@@ -1,0 +1,3 @@
+FilzaEnhanced 1.0.6.3
+
+- Improved file and folder opening behavior
