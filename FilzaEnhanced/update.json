@@ -1,15 +1,15 @@
 {
   "product": "com.korboy.filzaenhanced",
-  "latest_version": "1.0.6.2",
+  "latest_version": "1.0.6.3",
   "artifacts": {
     "rootless": {
-      "deb_url": "https://korboybeats.github.io/debs/com.korboy.filzaenhanced_1.0.6.2_iphoneos-arm64.deb",
-      "sha256": "c9630c508629c02dc961d1067f746c5359a8f6215469b3f2d20d9a388a1c5af8",
+      "deb_url": "https://korboybeats.github.io/debs/com.korboy.filzaenhanced_1.0.6.3_iphoneos-arm64.deb",
+      "sha256": "6a423ea296ec394574d44343270f24eaf36f3d7bd9d299f2408f7f1da8393592",
       "architecture": "iphoneos-arm64"
     },
     "roothide": {
-      "deb_url": "https://korboybeats.github.io/debs/com.korboy.filzaenhanced_1.0.6.2_iphoneos-arm64e.deb",
-      "sha256": "5896834c90a276f58c4a4aee755a768dd22080556475e99eb75d52aad26d080b",
+      "deb_url": "https://korboybeats.github.io/debs/com.korboy.filzaenhanced_1.0.6.3_iphoneos-arm64e.deb",
+      "sha256": "8c5f46a5df19ecff4a967b84e6959101f42e9a761865d8f2d4e6851601edcfa7",
       "architecture": "iphoneos-arm64e"
     }
   }
