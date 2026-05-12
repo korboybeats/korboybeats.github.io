@@ -1,4 +1,6 @@
 FilzaEnhanced 1.0.6.3
 
 - Added the ability to create a new file from the Edit mode plus button
+- Added an in-app update prompt and installer for future FilzaEnhanced updates
 - Improved file and folder opening behavior
+- Improved long file name display in file lists
