@@ -41,16 +41,16 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64
-Version: 1.0.6.3
-Installed-Size: 81628
+Version: 1.0.6.4
+Installed-Size: 84368
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.6.3_iphoneos-arm64.deb
-Size: 16566830
-MD5sum: c5a100cd0d28bc5f21626890900b3b05
-SHA1: a21cc9f3127f879dae375227a7997a38a5a18468
-SHA256: 6a423ea296ec394574d44343270f24eaf36f3d7bd9d299f2408f7f1da8393592
+Filename: debs/com.korboy.filzaenhanced_1.0.6.4_iphoneos-arm64.deb
+Size: 17271378
+MD5sum: ff57d7b4fbdc2581a3962b6bf5373731
+SHA1: dd7a7197c827760128d74b7fb3fc6f909d13f639
+SHA256: 70dc45d039698433bc792b740017f9f004150b89246dc4a35c57a68aa1e69c35
 
 Package: com.korboy.filzaenhanced
 Name: FilzaEnhanced
@@ -62,14 +62,14 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64e
-Version: 1.0.6.3
-Installed-Size: 81680
+Version: 1.0.6.4
+Installed-Size: 84092
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
 Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
 SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Filename: debs/com.korboy.filzaenhanced_1.0.6.3_iphoneos-arm64e.deb
-Size: 16527818
-MD5sum: 6530df63ef0302977fc308298b98cb3c
-SHA1: 4cfd18d378e32edc4efb41b26cb81636cd6e50c0
-SHA256: 8c5f46a5df19ecff4a967b84e6959101f42e9a761865d8f2d4e6851601edcfa7
+Filename: debs/com.korboy.filzaenhanced_1.0.6.4_iphoneos-arm64e.deb
+Size: 17252362
+MD5sum: 41c45799671d23bcd81e1db5c94eac90
+SHA1: 8d466b4c7e72884518064ef61caa45a7d381ee68
+SHA256: 8cbd9901e37d409876d5446ab6b3f3a654095c7e7aeb250d5001245a23de167c
 

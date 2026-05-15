@@ -1,0 +1,4 @@
+FilzaEnhanced 1.0.6.4
+
+- Improved "Go to Folder..." panel
+- Improved file list layout compatibility for right-to-left languages

@@ -4,3 +4,4 @@ FilzaEnhanced 1.0.6.3
 - Added an in-app update prompt and installer for future FilzaEnhanced updates
 - Improved file and folder opening behavior
 - Improved long file name display in file lists
+- Improved Search go-to-file navigation so the selected file visibly flashes and centers
