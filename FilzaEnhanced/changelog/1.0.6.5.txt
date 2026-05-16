@@ -1,3 +1,0 @@
-FilzaEnhanced 1.0.6.5
-
-- Added Arabic language support
