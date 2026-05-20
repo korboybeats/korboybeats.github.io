@@ -1,0 +1,16 @@
+FilzaEnhanced 1.0.7
+
+- Added WebM thumbnail support
+- Added FilzaEnhanced's custom video player for WebM, TS, MTS, and M2TS videos
+- Added WebM support to video conversion
+- Added video type badges for more video formats
+- Added an option to show or hide video duration labels on thumbnails
+- Improved video thumbnail duration labels so they display separately from the thumbnail image
+- Improved thumbnail loading performance
+- Improved the Open Video popup with clearer playback and save-conversion options
+- Renamed Language Associations to Syntax Highlighting for clarity
+- Improved syntax highlighting performance and reliability for large text files
+- Improved the Go to Folder panel with a wider layout, theme styling, autocomplete, and haptic feedback
+- Updated Search edit mode layout with Select All on the left and Done on the right
+- Expanded app theme support across more panels and popups
+- Improved overall stability and reliability
