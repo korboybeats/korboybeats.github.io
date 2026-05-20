@@ -73,3 +73,21 @@ MD5sum: bdea63c5a4d83e0727b89e42b63e5285
 SHA1: a4ced48e8bd9f8fb2bb439ca54a9ed15d8e49fd5
 SHA256: 75059180c88aee4b7aeee3150fe0628b8f9a31a5a1b8bb88de5f86b645948acf
 
+Package: com.korboy.ffmpeg
+Name: FFmpeg
+Description: FFmpeg 8.1.1 media tools
+Maintainer: Korboy <korboybeats@gmail.com>
+Section: Multimedia
+Depends: firmware (>= 15.0), libaom3, libarchive13, libass9, libcurl4, libdav1d6, libfontconfig1, libfreetype6, libgmp10, libgnutls30, libhogweed6, libiosexec1, liblzma5, libmp3lame0, libnettle8, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7, libopus0, librav1e0, librtmp1, librubberband2, libsnappy1v5, libsoxr0, libspeex1, libsrt1, libtesseract5, libtheora0, libvidstab1.1, libvorbis0a, libvpx7, libwebp7, libxcb1, libzmq5, libsdl2-2.0-0
+Conflicts: ffmpeg
+Architecture: iphoneos-arm64
+Version: 8.1.1
+Filename: debs/com.korboy.ffmpeg_8.1.1_iphoneos-arm64.deb
+Size: 76344474
+MD5sum: c9a72eef494e5903fddd52867487fe7f
+SHA1: 4583f6bd05a5d316a2d02f5530eb0a9d66092815
+SHA256: 758adf894e8477e918c2db62dc7505e549d5f98350f58daa6fd6b987dc6f0385
+Priority: optional
+Replaces: ffmpeg
+Provides: ffmpeg, frei0r-plugins
+
