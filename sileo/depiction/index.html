@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sileo</title>
+  <style>
+    body { margin: 0; padding: 28px; background: #0f1117; color: #e8edf7; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .card { max-width: 760px; margin: 0 auto; padding: 30px; border-radius: 22px; background: linear-gradient(180deg, #171c26, #10141c); border: 1px solid #273142; box-shadow: 0 24px 70px rgba(0,0,0,.38); }
+    p { color: #cbd6e6; line-height: 1.6; font-size: 16px; }
+    .description { margin: 0; text-align: center; font-weight: 600; }
+    h2 { color: #30D9CA; margin: 0 0 8px; font-size: 30px; line-height: 1.1; text-align: center; }
+    .support-heading { margin-top: 0; }
+    h3.version { color: #30D9CA; font-size: 20px; font-weight: 700; line-height: 1.2; margin: 0 0 10px; text-align: center; }
+    ul { margin: 0; padding-left: 22px; }
+    li { margin: 0; line-height: 1.58; }
+    li + li { margin-top: 10px; }
+    .support-copy { margin: 0; text-align: center; line-height: 1.62; }
+    .support-spacer { height: 24px; }
+    .divider { height: 1px; background: rgba(48,217,202,0.22); margin: 16px 0; }
+    .screenshots { display: flex; gap: 14px; overflow-x: auto; padding: 8px 0 18px; margin-top: 10px; }
+    .screenshots img { width: 210px; max-width: 58vw; border-radius: 22px; border: 1px solid #2b3548; box-shadow: 0 16px 38px rgba(0,0,0,.35); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="description">A modern APT package manager frontend for iOS 15 and higher.</p>
+    <div class="screenshots">
+      <img src="https://korboybeats.github.io/sileo/screenshots/2.png" alt="Sileo screenshot 1">
+      <img src="https://korboybeats.github.io/sileo/screenshots/1.png" alt="Sileo screenshot 2">
+      <img src="https://korboybeats.github.io/sileo/screenshots/3.png" alt="Sileo screenshot 3">
+    </div>
+    <h2 class="support-heading">Support</h2>
+    <p class="support-copy">Need help, want to report a bug, or have a request?</p>
+    <ul>
+      <li><strong>Email:</strong> korboybeats@gmail.com</li>
+      <li><strong>Discord:</strong> korboybeats</li>
+    </ul>
+    <div class="support-spacer"></div>
+    <h2>Changelog</h2>
+    <h3 class="version">New in 2.5.6</h3>
+    <ul>
+      <li>RootHide support with Rootless-to-RootHide package conversion inside Sileo</li>
+      <li>RootHide includes RootHide, Rootless, and Rootful modes</li>
+      <li>RootHide package rows display architecture and conversion labels underneath package icons</li>
+      <li>Added sort by URL functionality for Sources tab</li>
+      <li>Added sort by Installed Packages for Sources tab</li>
+      <li>Show Package Count now applies immediately without restarting Sileo</li>
+      <li>Installed package count is shown automatically when sorting sources by Installed Packages</li>
+      <li>Improved broken-source detection and grouped dead-source alerts</li>
+      <li>Persistent source refresh errors with red errored repo rows and long-press error details</li>
+      <li>Fixed duplicate packages showing the wrong installed source</li>
+      <li>Fixed pasted source batch-add across rootless and rootful source lists</li>
+      <li>Search tab now shows packages from every repo that hosts them</li>
+      <li>Bug fixes and stability improvements</li>
+    </ul>
+    <div class="divider"></div>
+    <h3 class="version">New in 2.5.5</h3>
+    <ul>
+      <li>Cross-architecture browsing - browse and install rootful packages on rootless jailbreaks</li>
+      <li>Rootful-to-rootless package conversion with live progress log</li>
+      <li>Translate package descriptions using OpenAI, Gemini, DeepL, or MyMemory</li>
+      <li>Search packages by description</li>
+      <li>Dead repo detection - prompt to remove repos that fail multiple refreshes in a row</li>
+      <li>Source refresh up to 2x faster with smart caching (If-Modified-Since)</li>
+      <li>Faster app launch - tabs load on demand, no startup hang</li>
+      <li>Favorite sources - swipe right on a repo to pin it to the top</li>
+      <li>Show Source Count toggle - display repo count in Sources title</li>
+      <li>Default Tab setting in preferences</li>
+      <li>Copy button in the refresh error log</li>
+      <li>Package parsing ~3x faster</li>
+      <li>Korean, Japanese, Chinese, and Hungarian localizations</li>
+      <li>Bug fixes and stability improvements</li>
+    </ul>
+    <div class="divider"></div>
+    <h3 class="version">New in 2.5.4</h3>
+    <ul>
+      <li>Repo refresh performance improvements (~3x faster)</li>
+      <li>Total progress bar during repo refresh</li>
+      <li>Tap Featured, New, and Sources tabs to scroll to top</li>
+      <li>Settings redesign with collapsible menus</li>
+      <li>Ignored Keywords UI redesign</li>
+      <li>Reinstall swipe action for installed packages</li>
+      <li>Copy DEB URL swipe action</li>
+      <li>Download DEB now works for locally installed packages (repackaging)</li>
+      <li>Tab Haptics toggle in Settings</li>
+      <li>Sort mode applies immediately for installed packages</li>
+      <li>Fiona compatibility fix</li>
+      <li>Various bug fixes and Swift 6 compliance</li>
+    </ul>
+    <div class="divider"></div>
+    <h3 class="version">New in 2.5.3-1</h3>
+    <ul>
+      <li>Fixed respring prompt not appearing after installing tweaks</li>
+    </ul>
+    <div class="divider"></div>
+    <h3 class="version">New in 2.5.3</h3>
+    <ul>
+      <li>Enable/Disable Filter Toggle</li>
+      <li>Delete All Keywords option</li>
+      <li>Include Description Toggle</li>
+    </ul>
+    <div class="divider"></div>
+    <h3 class="version">New in 2.5.2</h3>
+    <ul>
+      <li>Sources Search Bar - search repos by name or URL</li>
+      <li>Download DEB swipe action</li>
+      <li>Ignored Keywords - filter out packages</li>
+      <li>Edit Ignored Keywords</li>
+      <li>Clean Repos - scan and remove dead repositories</li>
+    </ul>
+  </div>
+</body>
+</html>
