@@ -31,6 +31,24 @@ Replaces: yt-dlp
 Provides: yt-dlp
 Priority: optional
 
+Package: com.korboy.ffmpeg
+Name: FFmpeg
+Description: FFmpeg 8.1.1 media tools
+Maintainer: Korboy <korboybeats@gmail.com>
+Section: Multimedia
+Depends: firmware (>= 15.0), libaom3, libarchive13, libass9, libcurl4, libdav1d6, libfontconfig1, libfreetype6, libgmp10, libgnutls30, libhogweed6, libiosexec1, liblzma5, libmp3lame0, libnettle8, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7, libopus0, librav1e0, librtmp1, librubberband2, libsnappy1v5, libsoxr0, libspeex1, libsrt1, libtesseract5, libtheora0, libvidstab1.1, libvorbis0a, libvpx7, libwebp7, libxcb1, libzmq5, libsdl2-2.0-0
+Conflicts: ffmpeg
+Architecture: iphoneos-arm64
+Version: 8.1.1
+Filename: debs/com.korboy.ffmpeg_8.1.1_iphoneos-arm64.deb
+Size: 76344474
+MD5sum: c9a72eef494e5903fddd52867487fe7f
+SHA1: 4583f6bd05a5d316a2d02f5530eb0a9d66092815
+SHA256: 758adf894e8477e918c2db62dc7505e549d5f98350f58daa6fd6b987dc6f0385
+Priority: optional
+Replaces: ffmpeg
+Provides: ffmpeg, frei0r-plugins
+
 Package: com.korboy.filzaenhanced
 Name: FilzaEnhanced
 Summary: All-in-One Filza Enhancements
@@ -73,21 +91,44 @@ MD5sum: bdea63c5a4d83e0727b89e42b63e5285
 SHA1: a4ced48e8bd9f8fb2bb439ca54a9ed15d8e49fd5
 SHA256: 75059180c88aee4b7aeee3150fe0628b8f9a31a5a1b8bb88de5f86b645948acf
 
-Package: com.korboy.ffmpeg
-Name: FFmpeg
-Description: FFmpeg 8.1.1 media tools
+Package: com.korboy.filzaenhanced
+Name: FilzaEnhanced
+Summary: All-in-One Filza Enhancements
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
 Maintainer: Korboy <korboybeats@gmail.com>
-Section: Multimedia
-Depends: firmware (>= 15.0), libaom3, libarchive13, libass9, libcurl4, libdav1d6, libfontconfig1, libfreetype6, libgmp10, libgnutls30, libhogweed6, libiosexec1, liblzma5, libmp3lame0, libnettle8, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7, libopus0, librav1e0, librtmp1, librubberband2, libsnappy1v5, libsoxr0, libspeex1, libsrt1, libtesseract5, libtheora0, libvidstab1.1, libvorbis0a, libvpx7, libwebp7, libxcb1, libzmq5, libsdl2-2.0-0
-Conflicts: ffmpeg
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
 Architecture: iphoneos-arm64
-Version: 8.1.1
-Filename: debs/com.korboy.ffmpeg_8.1.1_iphoneos-arm64.deb
-Size: 76344474
-MD5sum: c9a72eef494e5903fddd52867487fe7f
-SHA1: 4583f6bd05a5d316a2d02f5530eb0a9d66092815
-SHA256: 758adf894e8477e918c2db62dc7505e549d5f98350f58daa6fd6b987dc6f0385
-Priority: optional
-Replaces: ffmpeg
-Provides: ffmpeg, frei0r-plugins
+Version: 1.0.7
+Installed-Size: 102184
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Filename: debs/com.korboy.filzaenhanced_1.0.7_iphoneos-arm64.deb
+Size: 22610310
+MD5sum: 05da81243443ea9ac5e4884e1ccf8d6e
+SHA1: 18c08ea8f122d58c6a576624694307c380a0b334
+SHA256: 8a2253f9a2fe8520d8a1a717c5b4c6a425e44c3b069e156f49ce3d892b63e3e6
 
+Package: com.korboy.filzaenhanced
+Name: FilzaEnhanced
+Summary: All-in-One Filza Enhancements
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Installed-Size: 99332
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Filename: debs/com.korboy.filzaenhanced_1.0.7_iphoneos-arm64e.deb
+Size: 22602362
+MD5sum: 10fc0c732e8ba0152998992bc3657763
+SHA1: c6890ce289c862aa515b55d7fd17b0301ac814d9
+SHA256: e5b82ab4282942d762019298b3b1e67828dd649684b081347ac9626631722e3c
