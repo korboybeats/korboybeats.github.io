@@ -132,3 +132,36 @@ Size: 22602362
 MD5sum: 10fc0c732e8ba0152998992bc3657763
 SHA1: c6890ce289c862aa515b55d7fd17b0301ac814d9
 SHA256: e5b82ab4282942d762019298b3b1e67828dd649684b081347ac9626631722e3c
+
+Package: com.korboy.rbic
+Name: rbic
+Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Utilities
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 1708
+Icon: https://korboybeats.github.io/icons/rbic.png
+Filename: debs/com.korboy.rbic_1.0.0_iphoneos-arm64.deb
+Size: 1029150
+MD5sum: 023d3dccbc90d319650b9cc34cfa56e9
+SHA1: 60bf6a8bede9aaf504556808a09769c7b5ce1970
+SHA256: 55abf157f16f032d611aa186da9060da887c65cbca3f576e4f64b903ab85323b
+
+Package: com.korboy.rbic
+Name: rbic
+Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 1708
+Icon: https://korboybeats.github.io/icons/rbic.png
+Filename: debs/com.korboy.rbic_1.0.0_iphoneos-arm64e.deb
+Size: 1029228
+MD5sum: 9443bff1cefe6bb61a429611bce5cf7d
+SHA1: ffd44f0c03700236ae0f94a4b9267c46bad556a4
+SHA256: dc44b3083706167b25864b7e99013aac29aee1ebb9c1f6b4497036b1b81be019
+
