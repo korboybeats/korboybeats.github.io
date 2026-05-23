@@ -49,22 +49,6 @@ Priority: optional
 Replaces: ffmpeg
 Provides: ffmpeg, frei0r-plugins
 
-Package: com.korboy.rbic
-Name: rbic
-Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Utilities
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 1708
-Icon: https://korboybeats.github.io/icons/rbic.png
-Filename: debs/com.korboy.rbic_1.0.0_iphoneos-arm64.deb
-Size: 1029150
-MD5sum: 023d3dccbc90d319650b9cc34cfa56e9
-SHA1: 60bf6a8bede9aaf504556808a09769c7b5ce1970
-SHA256: 55abf157f16f032d611aa186da9060da887c65cbca3f576e4f64b903ab85323b
-
 Package: com.korboy.filzaenhanced
 Name: FilzaEnhanced
 Summary: All-in-One Filza Enhancements
@@ -106,3 +90,36 @@ Size: 22595396
 MD5sum: 8c1bbc2d357b339af4b708085c7286ca
 SHA1: 37001a63d3abae9724851c45f50cdf363cdb73c2
 SHA256: 05de6121ef913a85d5f0700f05cb84126648c7d63daa38fcd34d490e25755048
+
+Package: com.korboy.rbic
+Name: rbic
+Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 1708
+Icon: https://korboybeats.github.io/icons/rbic.png
+Filename: debs/com.korboy.rbic_1.0.1_iphoneos-arm64e.deb
+Size: 1028478
+MD5sum: b52fd1570748fa9caa35bf0cb80c3ac5
+SHA1: 49fa26945cc88d9e04745163b3f08b340e46e0ca
+SHA256: e9a98bb1123a96bcdfcd6ebc481323621ab5443720607da70860e6cdd3bd1d2b
+
+Package: com.korboy.rbic
+Name: rbic
+Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Utilities
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 1708
+Icon: https://korboybeats.github.io/icons/rbic.png
+Filename: debs/com.korboy.rbic_1.0.1_iphoneos-arm64.deb
+Size: 1028454
+MD5sum: ae6da062e84d303c0e4f0a4f98187ad8
+SHA1: db41fd5caf87dd009cf8ccbd57b6de7b230252ea
+SHA256: 0b7d3b7edce6b3c32942faecfdf1460f5e253b7f71460c13a7b70a42de33a614
+
