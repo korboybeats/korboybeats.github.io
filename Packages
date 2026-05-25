@@ -162,3 +162,40 @@ SHA256: fc88eee0b2ea3b23b65830671e8f901ac2d47d771598af9cc56191e555fd7772
 X-Sileo-Fork: com.korboy.sileo
 Pre-Depends: rootless-compat(>= 0.9)
 
+Package: com.korboy.fleq
+Name: FLEQ
+Description: Standalone parametric EQ with spectrum analyzer.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 55288
+Icon: https://raw.githubusercontent.com/korboybeats/korboybeats.github.io/main/FLEQ/icon.png
+Depiction: https://korboybeats.github.io/depictions/fleq/index.html?v=b1b0b93
+SileoDepiction: https://korboybeats.github.io/depictions/fleq/sileo.json?v=b1b0b93
+Filename: debs/com.korboy.fleq_1.0.0_iphoneos-arm64.deb
+Size: 21134426
+MD5sum: 5a75f38c935f507f0550e4d357ffed1c
+SHA1: c2f1210fd57232dfb4b44c729410f63a94867d27
+SHA256: 4b6fd746fc8332c9b409c0f8a3bcfee49c527f7bbad353411622db1193e619db
+
+Package: com.korboy.fleq
+Name: FLEQ
+Description: Standalone parametric EQ with spectrum analyzer.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 55792
+Icon: https://raw.githubusercontent.com/korboybeats/korboybeats.github.io/main/FLEQ/icon.png
+Depiction: https://korboybeats.github.io/depictions/fleq/index.html?v=b1b0b93
+SileoDepiction: https://korboybeats.github.io/depictions/fleq/sileo.json?v=b1b0b93
+Filename: debs/com.korboy.fleq_1.0.0_iphoneos-arm64e.deb
+Size: 21305982
+MD5sum: 13d278d248c930be513eb855ee1b331b
+SHA1: 3b33940170b7a372c33815209682643a5ee2f842
+SHA256: e8bf4782fa48d7a38d40544bb592f6b741e42cfc104df4e62b9600ab89532348

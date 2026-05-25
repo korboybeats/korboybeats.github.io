@@ -31,18 +31,18 @@
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 18,
-          "itemSize": "{220, 476}",
+          "itemSize": "{320, 180}",
           "screenshots": [
             {
-              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/1.png",
+              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/1.png?v=9e3bd50",
               "accessibilityText": "FLEQ screenshot 1"
             },
             {
-              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/2.png",
+              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/2.png?v=9e3bd50",
               "accessibilityText": "FLEQ screenshot 2"
             },
             {
-              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/3.png",
+              "url": "https://korboybeats.github.io/depictions/fleq/screenshots/3.png?v=9e3bd50",
               "accessibilityText": "FLEQ screenshot 3"
             }
           ]
