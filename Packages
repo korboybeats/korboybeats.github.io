@@ -123,3 +123,22 @@ MD5sum: ae6da062e84d303c0e4f0a4f98187ad8
 SHA1: db41fd5caf87dd009cf8ccbd57b6de7b230252ea
 SHA256: 0b7d3b7edce6b3c32942faecfdf1460f5e253b7f71460c13a7b70a42de33a614
 
+Package: com.korboy.sileo
+Name: Sileo
+Description: A modern APT package manager frontend.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
+Section: Packaging
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Architecture: iphoneos-arm64
+Version: 2.5.6
+Icon: https://korboybeats.github.io/sileo/icon.png
+Depiction: https://korboybeats.github.io/sileo/depiction/
+SileoDepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json
+Filename: debs/com.korboy.sileo_2.5.6_iphoneos-arm64.deb
+Size: 3094068
+MD5sum: a0bc7cf929947795ffccba883d9e4353
+SHA1: 6902adea0b99c2d9e38f96c8f8d02ed8c0b756a6
+SHA256: 076f61cfe352617d52112c817affcca2fdcd85f9f63e2ac9205df819e78457bb
+X-Sileo-Fork: com.korboy.sileo
+
