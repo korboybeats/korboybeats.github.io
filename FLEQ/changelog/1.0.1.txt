@@ -1,0 +1,4 @@
+FLEQ 1.0.1
+
+- Added app localization support for multiple languages: English, Arabic, Japanese, Korean, Portuguese, Brazilian Portuguese, Turkish, Simplified Chinese, and Traditional Chinese
+- Improved SpringBoard dock background hiding compatibility with other tweaks

@@ -55,6 +55,23 @@
           "tintColor": "#5b9bf5"
         }
       ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 14
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<div style=\"font-size:20px;font-weight:700;color:#5b9bf5;line-height:1.2;margin:0 0 10px 0;text-align:center;\">v1.0.1</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added app localization support for multiple languages: English, Arabic, Japanese, Korean, Portuguese, Brazilian Portuguese, Turkish, Simplified Chinese, and Traditional Chinese</li><li style=\"margin-top:10px;\">Improved SpringBoard dock background hiding compatibility with other tweaks</li></ul>",
+          "useSpacing": false,
+          "useRawFormat": true,
+          "tintColor": "#5b9bf5"
+        }
+      ]
     }
   ]
 }
