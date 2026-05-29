@@ -1,5 +1,6 @@
 FilzaEnhanced 1.0.7.2
 
 - Fixed a stock Filza bug where moving a file or folder into another folder with a similar name, such as `Project` into `Project-Backup`, could incorrectly show "You can't paste an item into itself"
+- Fixed custom video player playback for VP9 videos
 - Improved FilzaDirProbe folder size rendering with cleaner, immediate row layout handling
 - Fixed landscape list layout alignment for the toolbar, folder chevrons, and row details
