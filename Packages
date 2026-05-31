@@ -218,3 +218,67 @@ Priority: optional
 Replaces: ffmpeg
 Provides: ffmpeg, frei0r-plugins
 
+Package: com.korboy.ipadecryptautoalert
+Name: ipadecryptautoalert
+Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
+Maintainer: Korboy
+Author: Korboy
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.7.0-korboy.1
+Installed-Size: 188
+Filename: debs/com.korboy.ipadecryptautoalert_0.7.0-korboy.1_iphoneos-arm64.deb
+Size: 12350
+MD5sum: 6637b20d76978f980c392afc4d974390
+SHA1: 08787d53261e38df115e3a79aaa0cab401032e1c
+SHA256: 18c5e7d87f2c1b47b9e380367fb7d495a5080336ee658cbcca6f2c86ab4518fb
+
+Package: com.korboy.ipadecryptautoalert
+Name: ipadecryptautoalert
+Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
+Maintainer: Korboy
+Author: Korboy
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.7.0-korboy.1
+Installed-Size: 188
+Filename: debs/com.korboy.ipadecryptautoalert_0.7.0-korboy.1_iphoneos-arm64e.deb
+Size: 12302
+MD5sum: 86e41eafdeb776276f8165912a9519e6
+SHA1: bf5c77ea3cb9f7b8ff06fb4cd6c74275b2dfa473
+SHA256: 47069e112a7531a79ef39996839d42676aa8e0e891d6280e6bfe05abe260dd18
+
+Package: com.korboy.ipadecrypt
+Name: ipadecrypt
+Description: On-device IPA decrypter.
+Maintainer: Korboy
+Author: Korboy
+Section: Applications
+Architecture: iphoneos-arm64
+Version: 0.7.0-korboy.1
+Installed-Size: 10372
+Icon: https://korboybeats.github.io/icons/ipadecrypt.png
+Filename: debs/com.korboy.ipadecrypt_0.7.0-korboy.1_iphoneos-arm64.deb
+Size: 2611840
+MD5sum: 495473f2cf66fd9dba15a62998ca1f33
+SHA1: 504f4db45321ddb3c0ad4ad43c6fb40779410581
+SHA256: f897469e4dd083ce4ccd150d05fe7df814cb7eb8c7a88f783476f2a183a60e55
+
+Package: com.korboy.ipadecrypt
+Name: ipadecrypt
+Description: On-device IPA decrypter.
+Maintainer: Korboy
+Author: Korboy
+Section: Applications
+Architecture: iphoneos-arm64e
+Version: 0.7.0-korboy.1
+Installed-Size: 10372
+Icon: https://korboybeats.github.io/icons/ipadecrypt.png
+Filename: debs/com.korboy.ipadecrypt_0.7.0-korboy.1_iphoneos-arm64e.deb
+Size: 2612372
+MD5sum: 20b2926bf92cc36bf0168c70ee029302
+SHA1: 54fec2899596d5e2e533bda8c4c861e371209f58
+SHA256: f7b967eda3274df583f30374889a29726a2b7ad6e5b9e721ac92f658145c8aab
+
