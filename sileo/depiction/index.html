@@ -12,6 +12,7 @@
     h2 { color: #30D9CA; margin: 0 0 8px; font-size: 30px; line-height: 1.1; text-align: center; }
     .support-heading { margin-top: 0; }
     h3.version { color: #30D9CA; font-size: 20px; font-weight: 700; line-height: 1.2; margin: 0 0 10px; text-align: center; }
+    .changelog-section { color: #30D9CA; font-size: 16px; font-weight: 700; line-height: 1.3; margin: 14px 0 6px; }
     ul { margin: 0; padding-left: 22px; }
     li { margin: 0; line-height: 1.58; }
     li + li { margin-top: 10px; }
@@ -38,6 +39,33 @@
     </ul>
     <div class="support-spacer"></div>
     <h2>Changelog</h2>
+    <h3 class="version">New in 2.5.7</h3>
+    <h4 class="changelog-section">RootHide</h4>
+    <ul>
+      <li>Improved startup reliability when opening directly to Packages or Sources on RootHide.</li>
+      <li>Improved RootHide conversion support with all conversion modes available directly inside Sileo.</li>
+      <li>Fixed installed package source labels temporarily showing as Local while RootHide package data finishes loading.</li>
+      <li>Fixed Require Dynamic Patches converted packages not queuing correctly from package pages or Converted Packages.</li>
+    </ul>
+    <h4 class="changelog-section">Sources</h4>
+    <ul>
+      <li>Combined Sort Sources By, Clean Repos, and Treat Re-added Sources as New into one Sources options button.</li>
+    </ul>
+    <h4 class="changelog-section">Package Icons</h4>
+    <ul>
+      <li>Improved repo icon caching so package icons are less likely to fall back to category icons.</li>
+      <li>Fixed local deb icons when a package contains an icon file but does not declare an Icon field.</li>
+    </ul>
+    <h4 class="changelog-section">Localization</h4>
+    <ul>
+      <li>Added missing translations across supported languages.</li>
+    </ul>
+    <h4 class="changelog-section">Stability</h4>
+    <ul>
+      <li>Fixed installed packages staying visible in Packages after uninstalling.</li>
+      <li>Improved startup reliability and general stability.</li>
+    </ul>
+    <div class="divider"></div>
     <h3 class="version">New in 2.5.6-1</h3>
     <ul>
       <li>Small bug fix</li>

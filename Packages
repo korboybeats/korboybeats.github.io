@@ -81,45 +81,6 @@ MD5sum: ae6da062e84d303c0e4f0a4f98187ad8
 SHA1: db41fd5caf87dd009cf8ccbd57b6de7b230252ea
 SHA256: 0b7d3b7edce6b3c32942faecfdf1460f5e253b7f71460c13a7b70a42de33a614
 
-Package: com.korboy.sileo
-Name: Sileo
-Description: A modern APT package manager frontend.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
-Section: Packaging
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Architecture: iphoneos-arm64
-Version: 2.5.6-1
-Icon: https://korboybeats.github.io/sileo/icon.png
-Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.6-1
-SileoDepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.6-1
-Filename: debs/com.korboy.sileo_2.5.6-1_iphoneos-arm64.deb
-Size: 3021936
-MD5sum: 3ab85eae89b0147a820261b48623201e
-SHA1: e6f8e4490bf1e7b907a34bb16673c8fd2dc31900
-SHA256: a81c5b2618994f85cf9595d259db04febf285978e1d1c8267fccd7a43a6b101a
-X-Sileo-Fork: com.korboy.sileo
-
-Package: com.korboy.sileo
-Name: Sileo
-Description: A modern APT package manager frontend.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
-Section: Packaging
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Architecture: iphoneos-arm64e
-Version: 2.5.6-1
-Icon: https://korboybeats.github.io/sileo/icon.png
-Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.6-1
-SileoDepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.6-1
-Filename: debs/com.korboy.sileo_2.5.6-1_iphoneos-arm64e.deb
-Size: 7554830
-MD5sum: f4ef627d240a3929beda8ae14d7512fc
-SHA1: b70d539b4669e58e9959d197c4e74c4a8e1d9bef
-SHA256: c5625fb530519834abc4d4c79379d43647d391796f8fbca0c04928192977e54c
-X-Sileo-Fork: com.korboy.sileo
-Pre-Depends: rootless-compat(>= 0.9)
-
 Package: com.korboy.fleq
 Name: FLEQ
 Description: Standalone parametric EQ with spectrum analyzer.
@@ -281,4 +242,43 @@ Size: 2612372
 MD5sum: 20b2926bf92cc36bf0168c70ee029302
 SHA1: 54fec2899596d5e2e533bda8c4c861e371209f58
 SHA256: f7b967eda3274df583f30374889a29726a2b7ad6e5b9e721ac92f658145c8aab
+
+Package: com.korboy.sileo
+Name: Sileo
+Description: A modern APT package manager frontend.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
+Section: Packaging
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Architecture: iphoneos-arm64
+Version: 2.5.7
+Icon: https://korboybeats.github.io/sileo/icon.png
+Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.7
+SileoDepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.7
+Filename: debs/com.korboy.sileo_2.5.7_iphoneos-arm64.deb
+Size: 3120780
+MD5sum: 9a010b586129f42f748004c131970446
+SHA1: 691d8e45ad1c53e042e912be862f2bce5f1ebf9c
+SHA256: 593c06c93d7676ec0fb267e640acbf850a8d74f9536a4d1d6861e710b29b6514
+X-Sileo-Fork: com.korboy.sileo
+
+Package: com.korboy.sileo
+Name: Sileo
+Description: A modern APT package manager frontend.
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
+Section: Packaging
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Architecture: iphoneos-arm64e
+Version: 2.5.7
+Icon: https://korboybeats.github.io/sileo/icon.png
+Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.7
+SileoDepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.7
+Filename: debs/com.korboy.sileo_2.5.7_iphoneos-arm64e.deb
+Size: 7814986
+MD5sum: c802218e00ba95c60c34e40c093e3d7e
+SHA1: 68677a87bb261eac85f8d5010f86f400c1289c58
+SHA256: d76f305fbb06e38f93e7cd564ebacd806e4d6d081312fef446033a6e15a19666
+X-Sileo-Fork: com.korboy.sileo
+Pre-Depends: rootless-compat(>= 0.9)
 
