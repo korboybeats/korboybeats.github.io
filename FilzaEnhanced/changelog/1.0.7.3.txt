@@ -1,0 +1,11 @@
+FilzaEnhanced 1.0.7.3
+
+- Added file search sorting by name, date, size, or type
+- Root Search and Recursive Current Folder Search results now show parent folder paths
+- Added 5-second rewind and forward buttons to the custom video player
+- Added Vietnamese localization
+- Improved Favorites editing by replacing the rename swipe action with custom name and path editor
+- Fixed stock Filza issue where toolbar layout jumps when opening folders from Search results
+- Fixed WebM thumbnails and MP4 conversion on RootHide
+- Fixed IPA thumbnails, archive extraction, and package filename normalization on RootHide
+- Fixed FilzaDirProbe folder size positioning on some RootHide devices
