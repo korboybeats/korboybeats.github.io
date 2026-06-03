@@ -253,8 +253,8 @@ Architecture: iphoneos-arm64
 Version: 1.0.7.3
 Installed-Size: 106164
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=1.0.7.3
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=1.0.7.3
 Filename: debs/com.korboy.filzaenhanced_1.0.7.3_iphoneos-arm64.deb
 Size: 24195052
 MD5sum: 3ee5dc7226b8e660064c43ad26e60aea
@@ -274,8 +274,8 @@ Architecture: iphoneos-arm64e
 Version: 1.0.7.3
 Installed-Size: 108532
 Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=1.0.7.3
+SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=1.0.7.3
 Filename: debs/com.korboy.filzaenhanced_1.0.7.3_iphoneos-arm64e.deb
 Size: 24257102
 MD5sum: df3d4dcff10815aa9219fe20f64954bb
