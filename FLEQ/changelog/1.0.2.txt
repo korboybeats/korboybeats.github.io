@@ -1,0 +1,7 @@
+FLEQ 1.0.2
+
+- Improved visualizer performance and reduced background activity
+- Improved visualizer Hue Shift behavior
+- Improved overall stability
+- Updated Mirror Smooth default value
+- Updated Korboy's Preset
