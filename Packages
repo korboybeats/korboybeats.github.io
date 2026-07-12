@@ -1,283 +1,345 @@
-Package: com.korboy.quickjs-ng
-Name: quickjs-ng
-Description: QuickJS-ng runtime for rootless iOS
-Maintainer: Korboy <korboybeats@gmail.com>
-Section: Interpreters
-Architecture: iphoneos-arm64
-Version: 0.14.0
-Filename: debs/com.korboy.quickjs-ng_0.14.0_iphoneos-arm64.deb
-Size: 435700
-MD5sum: 5a80a6ae72d2b6c04dccda7e4b0711cd
-SHA1: 6904af1b13d051d36591dbb1dc7ba2161d45f114
-SHA256: 523842beb5984244bfb6667531f6c04cc138deb7e1860aa29c42a02749e74be3
-Priority: optional
-
-Package: com.korboy.yt-dlp
-Name: yt-dlp
-Description: yt-dlp for jailbroken rootless iOS
-Maintainer: Korboy <korboybeats@gmail.com>
-Section: Multimedia
-Depends: xyz.cypwn.python314, ffmpeg, com.korboy.quickjs-ng
-Conflicts: yt-dlp
-Architecture: iphoneos-arm64
-Version: 2026.03.17
-Icon: https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0
-Filename: debs/com.korboy.yt-dlp_2026.03.17_iphoneos-arm64.deb
-Size: 2343050
-MD5sum: fb4e7c2b48dde3ff33de9ff236351e43
-SHA1: b816470c00a116523b8cf67a13d080b509bf2ff0
-SHA256: de943bf567c71c3f89fa35d00aaccc6f08fc9ceec4f0c533112bbac5de3ef382
-Replaces: yt-dlp
-Provides: yt-dlp
-Priority: optional
-
 Package: com.korboy.ffmpeg
-Name: FFmpeg
-Description: FFmpeg 8.1.1 media tools
+Version: 8.1.1
+Architecture: iphoneos-arm64e
 Maintainer: Korboy <korboybeats@gmail.com>
-Section: Multimedia
 Depends: firmware (>= 15.0), libaom3, libarchive13, libass9, libcurl4, libdav1d6, libfontconfig1, libfreetype6, libgmp10, libgnutls30, libhogweed6, libiosexec1, liblzma5, libmp3lame0, libnettle8, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7, libopus0, librav1e0, librtmp1, librubberband2, libsnappy1v5, libsoxr0, libspeex1, libsrt1, libtesseract5, libtheora0, libvidstab1.1, libvorbis0a, libvpx7, libwebp7, libxcb1, libzmq5, libsdl2-2.0-0
 Conflicts: ffmpeg
-Architecture: iphoneos-arm64
-Version: 8.1.1
-Filename: debs/com.korboy.ffmpeg_8.1.1_iphoneos-arm64.deb
-Size: 76344474
-MD5sum: c9a72eef494e5903fddd52867487fe7f
-SHA1: 4583f6bd05a5d316a2d02f5530eb0a9d66092815
-SHA256: 758adf894e8477e918c2db62dc7505e549d5f98350f58daa6fd6b987dc6f0385
-Priority: optional
 Replaces: ffmpeg
 Provides: ffmpeg, frei0r-plugins
-
-Package: com.korboy.rbic
-Name: rbic
-Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Utilities
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 1708
-Icon: https://korboybeats.github.io/icons/rbic.png
-Filename: debs/com.korboy.rbic_1.0.1_iphoneos-arm64e.deb
-Size: 1028478
-MD5sum: b52fd1570748fa9caa35bf0cb80c3ac5
-SHA1: 49fa26945cc88d9e04745163b3f08b340e46e0ca
-SHA256: e9a98bb1123a96bcdfcd6ebc481323621ab5443720607da70860e6cdd3bd1d2b
-
-Package: com.korboy.rbic
-Name: rbic
-Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Utilities
-Architecture: iphoneos-arm64
-Version: 1.0.1
-Installed-Size: 1708
-Icon: https://korboybeats.github.io/icons/rbic.png
-Filename: debs/com.korboy.rbic_1.0.1_iphoneos-arm64.deb
-Size: 1028454
-MD5sum: ae6da062e84d303c0e4f0a4f98187ad8
-SHA1: db41fd5caf87dd009cf8ccbd57b6de7b230252ea
-SHA256: 0b7d3b7edce6b3c32942faecfdf1460f5e253b7f71460c13a7b70a42de33a614
-
-Package: com.korboy.ffmpeg
-Name: FFmpeg
-Description: FFmpeg 8.1.1 media tools
-Maintainer: Korboy <korboybeats@gmail.com>
-Section: Multimedia
-Depends: firmware (>= 15.0), libaom3, libarchive13, libass9, libcurl4, libdav1d6, libfontconfig1, libfreetype6, libgmp10, libgnutls30, libhogweed6, libiosexec1, liblzma5, libmp3lame0, libnettle8, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7, libopus0, librav1e0, librtmp1, librubberband2, libsnappy1v5, libsoxr0, libspeex1, libsrt1, libtesseract5, libtheora0, libvidstab1.1, libvorbis0a, libvpx7, libwebp7, libxcb1, libzmq5, libsdl2-2.0-0
-Conflicts: ffmpeg
-Architecture: iphoneos-arm64e
-Version: 8.1.1
 Filename: debs/com.korboy.ffmpeg_8.1.1_iphoneos-arm64e.deb
 Size: 77040674
 MD5sum: 65814a8c26bf7c53e0f5c3c29f8045b7
 SHA1: b9786e08bce8fe59f6def73aae02a3329a14e24c
 SHA256: 7e92d60bed2eea7c563119ced86fa8a36a86c416586a06b275d6ee1cc3de612f
+Section: Multimedia
 Priority: optional
+Description: FFmpeg 8.1.1 media tools
+ Provides ffmpeg and ffprobe with broad codec, container, filter, subtitle, and network support.
+ Hardware support includes VideoToolbox H.264/HEVC encoding. AudioToolbox support depends on what iOS exposes.
+Name: FFmpeg
+
+Package: com.korboy.ffmpeg
+Version: 8.1.1
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Depends: firmware (>= 15.0), libaom3, libarchive13, libass9, libcurl4, libdav1d6, libfontconfig1, libfreetype6, libgmp10, libgnutls30, libhogweed6, libiosexec1, liblzma5, libmp3lame0, libnettle8, libogg0, libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7, libopus0, librav1e0, librtmp1, librubberband2, libsnappy1v5, libsoxr0, libspeex1, libsrt1, libtesseract5, libtheora0, libvidstab1.1, libvorbis0a, libvpx7, libwebp7, libxcb1, libzmq5, libsdl2-2.0-0
+Conflicts: ffmpeg
 Replaces: ffmpeg
 Provides: ffmpeg, frei0r-plugins
+Filename: debs/com.korboy.ffmpeg_8.1.1_iphoneos-arm64.deb
+Size: 76344474
+MD5sum: c9a72eef494e5903fddd52867487fe7f
+SHA1: 4583f6bd05a5d316a2d02f5530eb0a9d66092815
+SHA256: 758adf894e8477e918c2db62dc7505e549d5f98350f58daa6fd6b987dc6f0385
+Section: Multimedia
+Priority: optional
+Description: FFmpeg 8.1.1 media tools
+ Provides ffmpeg and ffprobe with broad codec, container, filter, subtitle, and network support.
+ Hardware support includes VideoToolbox H.264/HEVC encoding. AudioToolbox support depends on what iOS exposes.
+Name: FFmpeg
 
-Package: com.korboy.ipadecryptautoalert
-Name: ipadecryptautoalert
-Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
-Maintainer: Korboy
-Author: Korboy
-Section: Tweaks
-Depends: mobilesubstrate
+Package: com.korboy.filzaenhanced
+Version: 1.0.7.4
 Architecture: iphoneos-arm64
-Version: 0.7.0-korboy.1
-Installed-Size: 188
-Filename: debs/com.korboy.ipadecryptautoalert_0.7.0-korboy.1_iphoneos-arm64.deb
-Size: 12350
-MD5sum: 6637b20d76978f980c392afc4d974390
-SHA1: 08787d53261e38df115e3a79aaa0cab401032e1c
-SHA256: 18c5e7d87f2c1b47b9e380367fb7d495a5080336ee658cbcca6f2c86ab4518fb
-
-Package: com.korboy.ipadecryptautoalert
-Name: ipadecryptautoalert
-Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
-Maintainer: Korboy
-Author: Korboy
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 109008
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Filename: debs/com.korboy.filzaenhanced_1.0.7.4_iphoneos-arm64.deb
+Size: 24317540
+MD5sum: ae6ece1f8b116ca4e684fbc77b2172ea
+SHA1: 37e56850156791afcd58cc75a059c18639999468
+SHA256: 956b371d94140b370eb2bfa494c15a014d5fa923a23a25ab436cfdc91accad13
 Section: Tweaks
-Depends: mobilesubstrate
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Summary: All-in-One Filza Enhancements
+
+Package: com.korboy.filzaenhanced
+Version: 1.0.7.4
 Architecture: iphoneos-arm64e
-Version: 0.7.0-korboy.1
-Installed-Size: 188
-Filename: debs/com.korboy.ipadecryptautoalert_0.7.0-korboy.1_iphoneos-arm64e.deb
-Size: 12302
-MD5sum: 86e41eafdeb776276f8165912a9519e6
-SHA1: bf5c77ea3cb9f7b8ff06fb4cd6c74275b2dfa473
-SHA256: 47069e112a7531a79ef39996839d42676aa8e0e891d6280e6bfe05abe260dd18
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 109152
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Filename: debs/com.korboy.filzaenhanced_1.0.7.4_iphoneos-arm64e.deb
+Size: 24399506
+MD5sum: 7c42351cc520f87fcdb1213fa1e29fa7
+SHA1: 64817754a9b12a9fc5299b59e6333754869a1825
+SHA256: 00af8eb4ce853e38a63b6999f21aaac2de1a6810bf81bedc200dffeffa12b3b5
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Summary: All-in-One Filza Enhancements
+
+Package: com.korboy.fleq
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 71900
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.korboy.fleq_1.0.3_iphoneos-arm64.deb
+Size: 24585128
+MD5sum: 20af1db41bcae974a77015c4f025a2e4
+SHA1: b44b02616d5b1d361dd4a12337a547b3e5ebc23b
+SHA256: 6b07a755e3abced94295792604349faae758f5087a78ef62b2e2ef4ee3041ff2
+Section: Tweaks
+Description: Standalone parametric EQ with spectrum analyzer.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/fleq/index.html
+Icon: https://raw.githubusercontent.com/korboybeats/korboybeats.github.io/main/FLEQ/icon.png
+Name: FLEQ
+Sileodepiction: https://korboybeats.github.io/depictions/fleq/sileo.json
+Summary: System-wide parametric EQ with spectrum analyzer
+
+Package: com.korboy.fleq
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 71732
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.korboy.fleq_1.0.3_iphoneos-arm64e.deb
+Size: 24711124
+MD5sum: 9da9be62fc6ad904fb954608580e2751
+SHA1: 67c5f54279599198457114aa7a71c803d3195583
+SHA256: dbf2002d203e0954150e718c230b2edc1e37f23435dea0614e217dbeae689cee
+Section: Tweaks
+Description: Standalone parametric EQ with spectrum analyzer.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/fleq/index.html
+Icon: https://raw.githubusercontent.com/korboybeats/korboybeats.github.io/main/FLEQ/icon.png
+Name: FLEQ
+Sileodepiction: https://korboybeats.github.io/depictions/fleq/sileo.json
+Summary: System-wide parametric EQ with spectrum analyzer
 
 Package: com.korboy.ipadecrypt
-Name: ipadecrypt
-Description: On-device IPA decrypter.
-Maintainer: Korboy
-Author: Korboy
-Section: Applications
-Architecture: iphoneos-arm64
 Version: 0.7.0-korboy.1
-Installed-Size: 10372
-Icon: https://korboybeats.github.io/icons/ipadecrypt.png
-Filename: debs/com.korboy.ipadecrypt_0.7.0-korboy.1_iphoneos-arm64.deb
-Size: 2611840
-MD5sum: 495473f2cf66fd9dba15a62998ca1f33
-SHA1: 504f4db45321ddb3c0ad4ad43c6fb40779410581
-SHA256: f897469e4dd083ce4ccd150d05fe7df814cb7eb8c7a88f783476f2a183a60e55
-
-Package: com.korboy.ipadecrypt
-Name: ipadecrypt
-Description: On-device IPA decrypter.
-Maintainer: Korboy
-Author: Korboy
-Section: Applications
 Architecture: iphoneos-arm64e
-Version: 0.7.0-korboy.1
+Maintainer: Korboy
 Installed-Size: 10372
-Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Filename: debs/com.korboy.ipadecrypt_0.7.0-korboy.1_iphoneos-arm64e.deb
 Size: 2612372
 MD5sum: 20b2926bf92cc36bf0168c70ee029302
 SHA1: 54fec2899596d5e2e533bda8c4c861e371209f58
 SHA256: f7b967eda3274df583f30374889a29726a2b7ad6e5b9e721ac92f658145c8aab
+Section: Applications
+Description: On-device IPA decrypter.
+Author: Korboy
+Icon: https://korboybeats.github.io/icons/ipadecrypt.png
+Name: ipadecrypt
+
+Package: com.korboy.ipadecrypt
+Version: 0.7.0-korboy.1
+Architecture: iphoneos-arm64
+Maintainer: Korboy
+Installed-Size: 10372
+Filename: debs/com.korboy.ipadecrypt_0.7.0-korboy.1_iphoneos-arm64.deb
+Size: 2611840
+MD5sum: 495473f2cf66fd9dba15a62998ca1f33
+SHA1: 504f4db45321ddb3c0ad4ad43c6fb40779410581
+SHA256: f897469e4dd083ce4ccd150d05fe7df814cb7eb8c7a88f783476f2a183a60e55
+Section: Applications
+Description: On-device IPA decrypter.
+Author: Korboy
+Icon: https://korboybeats.github.io/icons/ipadecrypt.png
+Name: ipadecrypt
+
+Package: com.korboy.ipadecryptautoalert
+Version: 0.7.0-korboy.1
+Architecture: iphoneos-arm64
+Maintainer: Korboy
+Installed-Size: 188
+Depends: mobilesubstrate
+Filename: debs/com.korboy.ipadecryptautoalert_0.7.0-korboy.1_iphoneos-arm64.deb
+Size: 12350
+MD5sum: 6637b20d76978f980c392afc4d974390
+SHA1: 08787d53261e38df115e3a79aaa0cab401032e1c
+SHA256: 18c5e7d87f2c1b47b9e380367fb7d495a5080336ee658cbcca6f2c86ab4518fb
+Section: Tweaks
+Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
+Author: Korboy
+Name: ipadecryptautoalert
+
+Package: com.korboy.ipadecryptautoalert
+Version: 0.7.0-korboy.1
+Architecture: iphoneos-arm64e
+Maintainer: Korboy
+Installed-Size: 188
+Depends: mobilesubstrate
+Filename: debs/com.korboy.ipadecryptautoalert_0.7.0-korboy.1_iphoneos-arm64e.deb
+Size: 12302
+MD5sum: 86e41eafdeb776276f8165912a9519e6
+SHA1: bf5c77ea3cb9f7b8ff06fb4cd6c74275b2dfa473
+SHA256: 47069e112a7531a79ef39996839d42676aa8e0e891d6280e6bfe05abe260dd18
+Section: Tweaks
+Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
+Author: Korboy
+Name: ipadecryptautoalert
+
+Package: com.korboy.quickjs-ng
+Version: 0.14.0
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Filename: debs/com.korboy.quickjs-ng_0.14.0_iphoneos-arm64.deb
+Size: 435700
+MD5sum: 5a80a6ae72d2b6c04dccda7e4b0711cd
+SHA1: 6904af1b13d051d36591dbb1dc7ba2161d45f114
+SHA256: 523842beb5984244bfb6667531f6c04cc138deb7e1860aa29c42a02749e74be3
+Section: Interpreters
+Priority: optional
+Description: QuickJS-ng runtime for rootless iOS
+Name: quickjs-ng
+
+Package: com.korboy.rbic
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 1708
+Filename: debs/com.korboy.rbic_1.0.0_iphoneos-arm64.deb
+Size: 1029150
+MD5sum: 023d3dccbc90d319650b9cc34cfa56e9
+SHA1: 60bf6a8bede9aaf504556808a09769c7b5ce1970
+SHA256: 55abf157f16f032d611aa186da9060da887c65cbca3f576e4f64b903ab85323b
+Section: Utilities
+Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
+Author: Korboy <korboybeats@gmail.com>
+Icon: https://korboybeats.github.io/icons/rbic.png
+Name: rbic
+
+Package: com.korboy.rbic
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 1708
+Filename: debs/com.korboy.rbic_1.0.1_iphoneos-arm64e.deb
+Size: 1028478
+MD5sum: b52fd1570748fa9caa35bf0cb80c3ac5
+SHA1: 49fa26945cc88d9e04745163b3f08b340e46e0ca
+SHA256: e9a98bb1123a96bcdfcd6ebc481323621ab5443720607da70860e6cdd3bd1d2b
+Section: Utilities
+Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
+Author: Korboy <korboybeats@gmail.com>
+Icon: https://korboybeats.github.io/icons/rbic.png
+Name: rbic
+
+Package: com.korboy.rbic
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 1708
+Filename: debs/com.korboy.rbic_1.0.1_iphoneos-arm64.deb
+Size: 1028454
+MD5sum: ae6da062e84d303c0e4f0a4f98187ad8
+SHA1: db41fd5caf87dd009cf8ccbd57b6de7b230252ea
+SHA256: 0b7d3b7edce6b3c32942faecfdf1460f5e253b7f71460c13a7b70a42de33a614
+Section: Utilities
+Description: CLI tool that executes TrollStore's Rebuild Icon Cache flow then runs uicache -ar to refresh jailbreak apps. Also includes an app with a Home Screen long-press menu toggle for 'Execute on launch' and 'Use in-app button' modes.
+Author: Korboy <korboybeats@gmail.com>
+Icon: https://korboybeats.github.io/icons/rbic.png
+Name: rbic
 
 Package: com.korboy.sileo
-Name: Sileo
-Description: A modern APT package manager frontend.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
-Section: Packaging
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Version: 2.5.6-1
 Architecture: iphoneos-arm64
-Version: 2.5.7
+Maintainer: Korboy <korboybeats@gmail.com>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/com.korboy.sileo_2.5.6-1_iphoneos-arm64.deb
+Size: 3021936
+MD5sum: 3ab85eae89b0147a820261b48623201e
+SHA1: e6f8e4490bf1e7b907a34bb16673c8fd2dc31900
+SHA256: a81c5b2618994f85cf9595d259db04febf285978e1d1c8267fccd7a43a6b101a
+Section: Packaging
+Description: A modern APT package manager frontend.
+Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
+Depiction: https://korboybeats.github.io/sileo/depiction/
 Icon: https://korboybeats.github.io/sileo/icon.png
-Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.7
-SileoDepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.7
+Name: Sileo
+Sileodepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json
+X-Sileo-Fork: com.korboy.sileo
+
+Package: com.korboy.sileo
+Version: 2.5.6-1
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/com.korboy.sileo_2.5.6-1_iphoneos-arm64e.deb
+Size: 7554830
+MD5sum: f4ef627d240a3929beda8ae14d7512fc
+SHA1: b70d539b4669e58e9959d197c4e74c4a8e1d9bef
+SHA256: c5625fb530519834abc4d4c79379d43647d391796f8fbca0c04928192977e54c
+Section: Packaging
+Description: A modern APT package manager frontend.
+Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
+Depiction: https://korboybeats.github.io/sileo/depiction/
+Icon: https://korboybeats.github.io/sileo/icon.png
+Name: Sileo
+Sileodepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json
+X-Sileo-Fork: com.korboy.sileo
+
+Package: com.korboy.sileo
+Version: 2.5.7
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
 Filename: debs/com.korboy.sileo_2.5.7_iphoneos-arm64.deb
 Size: 3120780
 MD5sum: 9a010b586129f42f748004c131970446
 SHA1: 691d8e45ad1c53e042e912be862f2bce5f1ebf9c
 SHA256: 593c06c93d7676ec0fb267e640acbf850a8d74f9536a4d1d6861e710b29b6514
+Section: Packaging
+Description: A modern APT package manager frontend.
+Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
+Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.7
+Icon: https://korboybeats.github.io/sileo/icon.png
+Name: Sileo
+Sileodepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.7
 X-Sileo-Fork: com.korboy.sileo
 
 Package: com.korboy.sileo
-Name: Sileo
-Description: A modern APT package manager frontend.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
-Section: Packaging
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Architecture: iphoneos-arm64e
 Version: 2.5.7
-Icon: https://korboybeats.github.io/sileo/icon.png
-Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.7
-SileoDepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.7
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
 Filename: debs/com.korboy.sileo_2.5.7_iphoneos-arm64e.deb
 Size: 7814986
 MD5sum: c802218e00ba95c60c34e40c093e3d7e
 SHA1: 68677a87bb261eac85f8d5010f86f400c1289c58
 SHA256: d76f305fbb06e38f93e7cd564ebacd806e4d6d081312fef446033a6e15a19666
+Section: Packaging
+Description: A modern APT package manager frontend.
+Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
+Depiction: https://korboybeats.github.io/sileo/depiction/?v=2.5.7
+Icon: https://korboybeats.github.io/sileo/icon.png
+Name: Sileo
+Sileodepiction: https://korboybeats.github.io/sileo/sileo_depiction/index.json?v=2.5.7
 X-Sileo-Fork: com.korboy.sileo
-Pre-Depends: rootless-compat(>= 0.9)
 
-Package: com.korboy.filzaenhanced
-Name: FilzaEnhanced
-Summary: All-in-One Filza Enhancements
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Package: com.korboy.yt-dlp
+Version: 2026.03.17
 Architecture: iphoneos-arm64
-Version: 1.0.7.3
-Installed-Size: 106164
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=1.0.7.3-3
-SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=1.0.7.3-3
-Filename: debs/com.korboy.filzaenhanced_1.0.7.3_iphoneos-arm64.deb
-Size: 24195052
-MD5sum: 3ee5dc7226b8e660064c43ad26e60aea
-SHA1: 8e54d8520713c43bec15bf46f125e980ea68a831
-SHA256: b60c6a0da030ac27efba711f9c46df03be4e6c7f99cdccc4b080a273f982a350
-
-Package: com.korboy.filzaenhanced
-Name: FilzaEnhanced
-Summary: All-in-One Filza Enhancements
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
 Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Architecture: iphoneos-arm64e
-Version: 1.0.7.3
-Installed-Size: 108532
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html?v=1.0.7.3-3
-SileoDepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=1.0.7.3-3
-Filename: debs/com.korboy.filzaenhanced_1.0.7.3_iphoneos-arm64e.deb
-Size: 24257102
-MD5sum: df3d4dcff10815aa9219fe20f64954bb
-SHA1: 0ac1086feb52faec31af965eee32a81d4fe677bc
-SHA256: e5c541a5fa1d72b249e9c81eb12e88477f55846aaacf7d11dacac097dc1dcb80
+Depends: xyz.cypwn.python314, ffmpeg, com.korboy.quickjs-ng
+Conflicts: yt-dlp
+Replaces: yt-dlp
+Provides: yt-dlp
+Filename: debs/com.korboy.yt-dlp_2026.03.17_iphoneos-arm64.deb
+Size: 2343050
+MD5sum: fb4e7c2b48dde3ff33de9ff236351e43
+SHA1: b816470c00a116523b8cf67a13d080b509bf2ff0
+SHA256: de943bf567c71c3f89fa35d00aaccc6f08fc9ceec4f0c533112bbac5de3ef382
+Section: Multimedia
+Priority: optional
+Description: yt-dlp for jailbroken rootless iOS
+Icon: https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0
+Name: yt-dlp
 
-Package: com.korboy.fleq
-Name: FLEQ
-Description: Standalone parametric EQ with spectrum analyzer.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 1.0.2
-Installed-Size: 73872
-Icon: https://raw.githubusercontent.com/korboybeats/korboybeats.github.io/main/FLEQ/icon.png
-Depiction: https://korboybeats.github.io/depictions/fleq/index.html?v=1.0.2-1
-SileoDepiction: https://korboybeats.github.io/depictions/fleq/sileo.json?v=1.0.2-1
-Filename: debs/com.korboy.fleq_1.0.2_iphoneos-arm64.deb
-Size: 25692368
-MD5sum: 18f3a013b2bd206da23556a67210823d
-SHA1: 60836f0a76260ec22bc266fc69a8a22344c31620
-SHA256: bcd3829baa88620c3449b1578bed2112fe39ce545db446bccd1cecf70344d50f
-
-Package: com.korboy.fleq
-Name: FLEQ
-Description: Standalone parametric EQ with spectrum analyzer.
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: Korboy <korboybeats@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64e
-Version: 1.0.2
-Installed-Size: 73936
-Icon: https://raw.githubusercontent.com/korboybeats/korboybeats.github.io/main/FLEQ/icon.png
-Depiction: https://korboybeats.github.io/depictions/fleq/index.html?v=1.0.2-1
-SileoDepiction: https://korboybeats.github.io/depictions/fleq/sileo.json?v=1.0.2-1
-Filename: debs/com.korboy.fleq_1.0.2_iphoneos-arm64e.deb
-Size: 25964668
-MD5sum: 1756338472ea431ca3f990b25320b95a
-SHA1: 084c414d8776d8fce636e0e9d3a132032db3d366
-SHA256: b0e4d82247edd0e9cabbc6d31bf59c67a392dad9a786bc816292c4073928f323
