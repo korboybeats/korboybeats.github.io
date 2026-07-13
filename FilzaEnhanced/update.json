@@ -1,16 +1,20 @@
 {
-  "product": "com.korboy.filzaenhanced",
-  "latest_version": "1.0.7.4",
   "artifacts": {
-    "rootless": {
-      "deb_url": "https://korboybeats.github.io/debs/com.korboy.filzaenhanced_1.0.7.4_iphoneos-arm64.deb",
-      "sha256": "956b371d94140b370eb2bfa494c15a014d5fa923a23a25ab436cfdc91accad13",
-      "architecture": "iphoneos-arm64"
-    },
     "roothide": {
+      "architecture": "iphoneos-arm64e",
       "deb_url": "https://korboybeats.github.io/debs/com.korboy.filzaenhanced_1.0.7.4_iphoneos-arm64e.deb",
-      "sha256": "00af8eb4ce853e38a63b6999f21aaac2de1a6810bf81bedc200dffeffa12b3b5",
-      "architecture": "iphoneos-arm64e"
+      "sha256": "00af8eb4ce853e38a63b6999f21aaac2de1a6810bf81bedc200dffeffa12b3b5"
+    },
+    "rootless": {
+      "architecture": "iphoneos-arm64",
+      "deb_url": "https://korboybeats.github.io/debs/com.korboy.filzaenhanced_1.0.7.4_iphoneos-arm64.deb",
+      "sha256": "956b371d94140b370eb2bfa494c15a014d5fa923a23a25ab436cfdc91accad13"
     }
-  }
+  },
+  "format": "filzaenhanced-update-v1",
+  "key_id": "fe-update-93e0c622223b33e1",
+  "latest_version": "1.0.7.4",
+  "payload": "eyJhcnRpZmFjdHMiOnsicm9vdGhpZGUiOnsiYXJjaGl0ZWN0dXJlIjoiaXBob25lb3MtYXJtNjRlIiwiZGViX3VybCI6Imh0dHBzOi8va29yYm95YmVhdHMuZ2l0aHViLmlvL2RlYnMvY29tLmtvcmJveS5maWx6YWVuaGFuY2VkXzEuMC43LjRfaXBob25lb3MtYXJtNjRlLmRlYiIsInNoYTI1NiI6IjAwYWY4ZWI0Y2U4NTNlMzhhNjNiNjk5OWYyMWFhYWMyZGUxYTY4MTBiZjgxYmVkYzIwMGRmZmVmZmExMmIzYjUifSwicm9vdGxlc3MiOnsiYXJjaGl0ZWN0dXJlIjoiaXBob25lb3MtYXJtNjQiLCJkZWJfdXJsIjoiaHR0cHM6Ly9rb3Jib3liZWF0cy5naXRodWIuaW8vZGVicy9jb20ua29yYm95LmZpbHphZW5oYW5jZWRfMS4wLjcuNF9pcGhvbmVvcy1hcm02NC5kZWIiLCJzaGEyNTYiOiI5NTZiMzcxZDk0MTQwYjM3MGViMmJmYTQ5NGMxNWEwMTRkNWZhOTIzYTIzYTI1YWI0MzZjZmRjOTFhY2NhZDEzIn19LCJsYXRlc3RfdmVyc2lvbiI6IjEuMC43LjQiLCJwcm9kdWN0IjoiY29tLmtvcmJveS5maWx6YWVuaGFuY2VkIn0=",
+  "product": "com.korboy.filzaenhanced",
+  "signature": "iasnlY+s2vJjYT9xBUgs395xK1gbdJ/dA/u7D7g2Gqq/GX0FbqFjbb0HxrqHTM04kHQl4ostSeOs1TE+gfr2DA=="
 }
