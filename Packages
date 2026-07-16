@@ -80,6 +80,48 @@ Name: FilzaEnhanced
 Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
 Summary: All-in-One Filza Enhancements
 
+Package: com.korboy.filzaenhanced
+Version: 1.0.7.5
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 107004
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Filename: debs/com.korboy.filzaenhanced_1.0.7.5_iphoneos-arm64.deb
+Size: 24855244
+MD5sum: 7480f042ca0ddef495734c6d34852567
+SHA1: 342aa2f5b1913ef7fc98a6997a4eec1d9f1b61c7
+SHA256: 5bfdad7eda29654385e975721042f0033e70776ecba8cb115243b8c4119604b9
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=1.0.7.5
+Summary: All-in-One Filza Enhancements
+
+Package: com.korboy.filzaenhanced
+Version: 1.0.7.5
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 108236
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Filename: debs/com.korboy.filzaenhanced_1.0.7.5_iphoneos-arm64e.deb
+Size: 25073474
+MD5sum: 34779fcf3e6a2feccdf22f93abb440b1
+SHA1: c6bed9f969e6ae135bad8df734d485e5599ad434
+SHA256: 327082249d7dddd4fd0689e942e45e84e22199bce2b440754551b0c12fcde027
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json?v=1.0.7.5
+Summary: All-in-One Filza Enhancements
+
 Package: com.korboy.fleq
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -406,4 +448,3 @@ Priority: optional
 Description: yt-dlp for jailbroken rootless iOS
 Icon: https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0
 Name: yt-dlp
-
