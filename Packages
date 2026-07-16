@@ -226,6 +226,38 @@ Author: Korboy
 Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Name: ipadecrypt
 
+Package: com.korboy.ipadecrypt
+Version: 0.7.3-korboy.2
+Architecture: iphoneos-arm64
+Maintainer: Korboy
+Installed-Size: 9656
+Filename: debs/com.korboy.ipadecrypt_0.7.3-korboy.2_iphoneos-arm64.deb
+Size: 2563732
+MD5sum: 0acaaa94431f91dd192a026ed083d8e0
+SHA1: 43da9b79536ae6dc10ade7bf587be52f9074baae
+SHA256: 856ae193892e007971f1424ca24e58be04d6661575a396b3efe7828c5e7754d4
+Section: Applications
+Description: On-device IPA decrypter.
+Author: Korboy
+Icon: https://korboybeats.github.io/icons/ipadecrypt.png
+Name: ipadecrypt
+
+Package: com.korboy.ipadecrypt
+Version: 0.7.3-korboy.2
+Architecture: iphoneos-arm64e
+Maintainer: Korboy
+Installed-Size: 9652
+Filename: debs/com.korboy.ipadecrypt_0.7.3-korboy.2_iphoneos-arm64e.deb
+Size: 2563510
+MD5sum: 958e7f2681d3e4d67c12f933bf37e610
+SHA1: 87f984cda960fcbfeaa90542a9390575d4b5e0ec
+SHA256: 66865be2647dba314a2fddcc4c911a4ba10d9fc0ddc2782b8a38b2630a1af56f
+Section: Applications
+Description: On-device IPA decrypter.
+Author: Korboy
+Icon: https://korboybeats.github.io/icons/ipadecrypt.png
+Name: ipadecrypt
+
 Package: com.korboy.ipadecryptautoalert
 Version: 0.7.0-korboy.1
 Architecture: iphoneos-arm64
@@ -285,6 +317,38 @@ Size: 10928
 MD5sum: 50944c204b4b43b7dd8c1a8c7d564f41
 SHA1: 5cd1cad991a9a5fa819e60af4e089d421de97f4b
 SHA256: 63f6f6b2f0a9fcf829c63905c2d31c5ddb5458c639dffe6490a703aea2eb5652
+Section: Tweaks
+Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
+Author: Korboy
+Name: ipadecryptautoalert
+
+Package: com.korboy.ipadecryptautoalert
+Version: 0.7.3-korboy.2
+Architecture: iphoneos-arm64e
+Maintainer: Korboy
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.korboy.ipadecryptautoalert_0.7.3-korboy.2_iphoneos-arm64e.deb
+Size: 10852
+MD5sum: 9b13a0f7e18b18e972e64101dd3655d6
+SHA1: c8ac805058523e760fdf637368d827bad29f3e6e
+SHA256: c0ab22e04653881f88570fc14d17498a9274d6a65c1436473e9e703fcfe76c24
+Section: Tweaks
+Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
+Author: Korboy
+Name: ipadecryptautoalert
+
+Package: com.korboy.ipadecryptautoalert
+Version: 0.7.3-korboy.2
+Architecture: iphoneos-arm64
+Maintainer: Korboy
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.korboy.ipadecryptautoalert_0.7.3-korboy.2_iphoneos-arm64.deb
+Size: 10924
+MD5sum: c13819cb15f25869b856af416da2f854
+SHA1: ca81a8c3d39b56f7f4e32701a7f253fb19cb7883
+SHA256: 2a72a7bbf65a211e8288b810163491c26bf33d9f142c7a6ea3a46e92aae7c949
 Section: Tweaks
 Description: Auto-confirms App Store "Download older version" prompts when armed by ipadecrypt.
 Author: Korboy
