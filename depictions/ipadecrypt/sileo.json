@@ -1,0 +1,51 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#48c2ff",
+  "backgroundColor": "#0f1117",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 14
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Decrypt App Store apps directly on your jailbroken iPhone.",
+          "fontWeight": "semibold",
+          "fontSize": 14,
+          "textColor": "#C6DCF8",
+          "alignment": 1,
+          "usePadding": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<div style=\"text-align:left;\"><div style=\"font-size:30px;font-weight:800;color:#48c2ff;line-height:1.1;margin:16px 0 8px;text-align:center;\">Features</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Browse and search installed apps</li><li style=\"margin-top:8px;\">Decrypt the currently installed version</li><li style=\"margin-top:8px;\">Download and decrypt the latest App Store version</li><li style=\"margin-top:8px;\">Download and decrypt the latest version compatible with your iOS</li><li style=\"margin-top:8px;\">Select, install, or decrypt an exact historical App Store version</li><li style=\"margin-top:8px;\">Install a selected version without decrypting it</li><li style=\"margin-top:8px;\">View live progress and copy logs</li><li style=\"margin-top:8px;\">Share completed IPA files</li><li style=\"margin-top:8px;\">Open the decrypted output folder in Filza</li><li style=\"margin-top:8px;\">View and refresh Apple ID authentication status</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:18px 0;\"></div><div style=\"font-size:30px;font-weight:800;color:#48c2ff;line-height:1.1;margin:0 0 8px;text-align:center;\">Compatibility</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Rootless and RootHide jailbreaks</li><li style=\"margin-top:8px;\">iOS 14 through iOS 17</li><li style=\"margin-top:8px;\">Requires AppSync Unified and <code>appinst</code></li><li style=\"margin-top:8px;\">Some newer <code>SC_Info</code> formats and certain arm64e apps may not decrypt</li></ul></div>",
+          "useSpacing": false,
+          "useRawFormat": true,
+          "tintColor": "#48c2ff"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 14
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<div style=\"font-size:20px;font-weight:700;color:#48c2ff;line-height:1.2;margin:0 0 10px;text-align:center;\">v0.7.3-korboy.2</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Fixed Apple authentication status appearing invalid after reopening the app</li><li style=\"margin-top:8px;\">Authentication status now restores and verifies correctly</li><li style=\"margin-top:8px;\">Prevented old authentication checks from overwriting newer results</li><li style=\"margin-top:8px;\">Improved authentication reliability and app-state handling</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:18px 0;\"></div><div style=\"font-size:20px;font-weight:700;color:#48c2ff;line-height:1.2;margin:0 0 10px;text-align:center;\">v0.7.3-korboy.1</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added installation of selected App Store versions without decrypting</li><li style=\"margin-top:8px;\">Added exact historical-version selection</li><li style=\"margin-top:8px;\">Improved Apple ID authentication validation and refresh behavior</li><li style=\"margin-top:8px;\">Added dynamic App Store authentication endpoint discovery</li><li style=\"margin-top:8px;\">Added App Store storefront selection support</li><li style=\"margin-top:8px;\">Preserved failed decryption output for troubleshooting</li><li style=\"margin-top:8px;\">Improved build reliability and upstream compatibility</li></ul><div style=\"height:1px;background:rgba(72,194,255,0.22);margin:18px 0;\"></div><div style=\"font-size:20px;font-weight:700;color:#48c2ff;line-height:1.2;margin:0 0 10px;text-align:center;\">v0.7.0-korboy.1</div><ul style=\"font-size:15px;line-height:1.58;margin:0;padding-left:22px;\"><li>Added RootHide app and helper packages</li><li style=\"margin-top:8px;\">Improved RootHide path handling</li><li style=\"margin-top:8px;\">Added RootHide-compatible older-version auto-confirm support</li><li style=\"margin-top:8px;\">Improved installed-app detection performance</li><li style=\"margin-top:8px;\">Fixed decryption of app extensions</li><li style=\"margin-top:8px;\">Improved jailbreak and device detection</li><li style=\"margin-top:8px;\">Rebuilt the embedded decryption helper</li></ul>",
+          "useSpacing": false,
+          "useRawFormat": true,
+          "tintColor": "#48c2ff"
+        }
+      ]
+    }
+  ]
+}

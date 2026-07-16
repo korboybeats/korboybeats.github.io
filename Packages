@@ -175,8 +175,11 @@ SHA256: f7b967eda3274df583f30374889a29726a2b7ad6e5b9e721ac92f658145c8aab
 Section: Applications
 Description: On-device IPA decrypter.
 Author: Korboy
+Depiction: https://korboybeats.github.io/depictions/ipadecrypt/index.html
 Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Name: ipadecrypt
+Sileodepiction: https://korboybeats.github.io/depictions/ipadecrypt/sileo.json
+Summary: Decrypt and install App Store versions on your jailbroken iPhone
 
 Package: com.korboy.ipadecrypt
 Version: 0.7.0-korboy.1
@@ -191,8 +194,11 @@ SHA256: f897469e4dd083ce4ccd150d05fe7df814cb7eb8c7a88f783476f2a183a60e55
 Section: Applications
 Description: On-device IPA decrypter.
 Author: Korboy
+Depiction: https://korboybeats.github.io/depictions/ipadecrypt/index.html
 Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Name: ipadecrypt
+Sileodepiction: https://korboybeats.github.io/depictions/ipadecrypt/sileo.json
+Summary: Decrypt and install App Store versions on your jailbroken iPhone
 
 Package: com.korboy.ipadecrypt
 Version: 0.7.3-korboy.1
@@ -207,8 +213,11 @@ SHA256: d284b6c10f949475daf4ea290a5d29d05e8bcc755234d326ae92e3d267201f8c
 Section: Applications
 Description: On-device IPA decrypter.
 Author: Korboy
+Depiction: https://korboybeats.github.io/depictions/ipadecrypt/index.html
 Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Name: ipadecrypt
+Sileodepiction: https://korboybeats.github.io/depictions/ipadecrypt/sileo.json
+Summary: Decrypt and install App Store versions on your jailbroken iPhone
 
 Package: com.korboy.ipadecrypt
 Version: 0.7.3-korboy.1
@@ -223,8 +232,11 @@ SHA256: 7c79261c34d9fb91bcbe08c6f0c79bd6fdb00fa2f32ca32e6bf099afccb8ab8a
 Section: Applications
 Description: On-device IPA decrypter.
 Author: Korboy
+Depiction: https://korboybeats.github.io/depictions/ipadecrypt/index.html
 Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Name: ipadecrypt
+Sileodepiction: https://korboybeats.github.io/depictions/ipadecrypt/sileo.json
+Summary: Decrypt and install App Store versions on your jailbroken iPhone
 
 Package: com.korboy.ipadecrypt
 Version: 0.7.3-korboy.2
@@ -239,8 +251,11 @@ SHA256: 856ae193892e007971f1424ca24e58be04d6661575a396b3efe7828c5e7754d4
 Section: Applications
 Description: On-device IPA decrypter.
 Author: Korboy
+Depiction: https://korboybeats.github.io/depictions/ipadecrypt/index.html
 Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Name: ipadecrypt
+Sileodepiction: https://korboybeats.github.io/depictions/ipadecrypt/sileo.json
+Summary: Decrypt and install App Store versions on your jailbroken iPhone
 
 Package: com.korboy.ipadecrypt
 Version: 0.7.3-korboy.2
@@ -255,8 +270,11 @@ SHA256: 66865be2647dba314a2fddcc4c911a4ba10d9fc0ddc2782b8a38b2630a1af56f
 Section: Applications
 Description: On-device IPA decrypter.
 Author: Korboy
+Depiction: https://korboybeats.github.io/depictions/ipadecrypt/index.html
 Icon: https://korboybeats.github.io/icons/ipadecrypt.png
 Name: ipadecrypt
+Sileodepiction: https://korboybeats.github.io/depictions/ipadecrypt/sileo.json
+Summary: Decrypt and install App Store versions on your jailbroken iPhone
 
 Package: com.korboy.ipadecryptautoalert
 Version: 0.7.0-korboy.1
