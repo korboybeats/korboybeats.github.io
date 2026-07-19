@@ -1,9 +1,0 @@
-FilzaEnhanced 1.0.7.5
-
-- Fixed a crash when opening Cloud Accounts
-- Improved Quick Upload with accurate, smoother progress
-- Added upload progress when Quick Upload is used from Custom Actions
-- Added Discord group and DM buttons
-- Fixed Go to Folder... showing an empty path
-- Improved app stability and performance
-- Fixed several small bugs and compatibility issues
