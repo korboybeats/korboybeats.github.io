@@ -52,6 +52,23 @@
       text-align: center;
       letter-spacing: 0.01em;
     }
+    .compatibility-notice {
+      margin: 18px 0 0;
+      padding: 14px 16px;
+      border: 1px solid rgba(255, 107, 107, 0.42);
+      border-radius: 12px;
+      background: rgba(255, 107, 107, 0.08);
+      color: #f4d7d7;
+      font-size: 14px;
+      line-height: 1.55;
+      text-align: center;
+    }
+    .compatibility-notice strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #ff9b9b;
+      text-align: center;
+    }
     h2 {
       margin: 40px 0 16px;
       color: var(--heading);
@@ -105,8 +122,12 @@
 </head>
 <body>
   <div class="card">
-    <div class="sub">A standalone system-wide parametric equalizer with a real-time spectrum analyzer.</div>
+    <div class="sub">A powerful system-wide parametric equalizer with customizable real-time audio visualizers for jailbroken iOS.</div>
     <div class="price">Must purchase in-app to use</div>
+    <div class="compatibility-notice">
+      <strong>Compatibility Notice</strong>
+      FLEQ is not compatible with Dopamine 3 or the Relaxin jailbreak. Do not purchase FLEQ if you plan to use either jailbreak. I currently do not have a compatible jailbroken device available for development and testing. Once I obtain one, I will work toward adding compatibility.
+    </div>
 
     <h2>Screenshots</h2>
     <div class="shots">
@@ -137,14 +158,23 @@
     </ul>
     <hr>
 
-    <h2>Real-Time Spectrum Analyzer</h2>
+    <h2>Real-Time Audio Visualizers</h2>
     <ul>
-      <li>GPU-accelerated visualizer rendered with Metal</li>
-      <li>Bars, Curve, and Heatmap modes</li>
-      <li>Customizable bar count, spacing, radius, line width, fill, and glow</li>
+      <li>GPU-accelerated visualizers rendered with Metal</li>
+      <li>Bars, Curve, Heatmap, and Line modes</li>
+      <li>Display visualizers on the Home Screen, Lock Screen, or both</li>
+      <li>Use one shared visualizer profile or customize each screen independently</li>
+      <li>Fine-tune visualizers directly from SpringBoard with the Live Tuning panel</li>
+      <li>Customize colors, reactive hue behavior, dimensions, glow, opacity, and positioning</li>
       <li>Logarithmic or linear frequency scaling with adjustable range</li>
-      <li>Heatmap palettes with configurable dB range</li>
-      <li>Peak hold, decay speed, smoothing, frame rate cap, and mirror mode</li>
+      <li>Configure smoothing, frame rate, mirroring, and mode-specific behavior</li>
+    </ul>
+    <hr>
+
+    <h2>Built-In Audio Effects</h2>
+    <ul>
+      <li>Shape audio with reverb, delay, compression, and pitch controls</li>
+      <li>Adjust effects in real time alongside the equalizer</li>
     </ul>
     <hr>
 
