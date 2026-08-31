@@ -1,0 +1,1 @@
+{"name":"Switch Layout Fix","description":"Fixes misaligned switches in Kettu plugins on iOS, including React Native Switch and FormSwitchRow.","authors":[{"name":"korboy"}],"main":"index.js","vendetta":{"icon":"ic_settings_24px"},"hash":"9f6dbcd5a4a3c44283e0906f87fbb8e9deb26be65715ea52bbb09e0081a84f88"}
