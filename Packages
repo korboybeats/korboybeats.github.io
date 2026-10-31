@@ -489,3 +489,17 @@ Description: yt-dlp for jailbroken rootless iOS
 Icon: https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0
 Name: yt-dlp
 
+Package: com.korboy.testpackage
+Name: RootHide Test (empty)
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Development
+Description: test package - do not install
+Filename: debs/com.korboy.testpackage_1.0_iphoneos-arm64e.deb
+Size: 732
+MD5sum: 3974999b4813f91e9fa8ffbfda5679b5
+SHA1: c65bb04a3d88a854109cbacc77df2465f1a84c2a
+SHA256: e2cd833ebd8815df7089421611793e29a70ceef809a09060e58dd54dda97d7ad
+
