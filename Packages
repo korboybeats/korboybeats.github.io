@@ -503,3 +503,49 @@ MD5sum: 96bd0595f37766a0f40e289effb9449a
 SHA1: eebd9daa5389e038c0dcd26e681bfd1d2275533e
 SHA256: f163ef650df3ec72f886539478bdf0bba67fdab9345dfd63adc2f2f8c58c4aca
 
+Package: com.korboy.icleanerproenhanced
+Name: iCleanerProEnhanced
+Description: Search, favorites, real icons and polish for iCleaner Pro.
+ Adds a search bar and a Favorites tab to the Tweaks list, shows each tweak's
+ real icon, and lets you swipe right to favorite a tweak so it stays on top.
+ Shows the letter you're on while scrubbing the A-Z index, adds a Default Tab
+ setting, and keeps iCleaner running in the background.
+Maintainer: Korboy
+Author: Korboy
+Section: Tweaks
+Icon: https://korboybeats.github.io/icons/icleanerproenhanced.png
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: xyz.cypwn.icleanerproenhanced
+Replaces: xyz.cypwn.icleanerproenhanced
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 156
+Filename: debs/com.korboy.icleanerproenhanced_1.0.0_iphoneos-arm64.deb
+Size: 30054
+MD5sum: b9d230acad288475d0118714d7134f7b
+SHA1: bf7c8c3f708e485ca3b5692079b5e0e8dfc42554
+SHA256: e36bf41613ab6a08207d159cc365b155a01f92fed7f10aedd1b5c8cc84a04bb2
+
+Package: com.korboy.icleanerproenhanced
+Name: iCleanerProEnhanced
+Description: Search, favorites, real icons and polish for iCleaner Pro.
+ Adds a search bar and a Favorites tab to the Tweaks list, shows each tweak's
+ real icon, and lets you swipe right to favorite a tweak so it stays on top.
+ Shows the letter you're on while scrubbing the A-Z index, adds a Default Tab
+ setting, and keeps iCleaner running in the background.
+Maintainer: Korboy
+Author: Korboy
+Section: Tweaks
+Icon: https://korboybeats.github.io/icons/icleanerproenhanced.png
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: xyz.cypwn.icleanerproenhanced
+Replaces: xyz.cypwn.icleanerproenhanced
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 156
+Filename: debs/com.korboy.icleanerproenhanced_1.0.0_iphoneos-arm64e.deb
+Size: 30028
+MD5sum: 9f438ae93648d4293523ba12d3bb9398
+SHA1: 6f859472ee6686698c20fcdf105fb9e54d5e8667
+SHA256: d36a1ab3638c289cbbc54f2fb7a94bf986dde09a6cf2b2231fedba08d0c17272
+
