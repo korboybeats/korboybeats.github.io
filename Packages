@@ -645,3 +645,19 @@ MD5sum: c9eeff8dc7be9c4648b4e08e680475d3
 SHA1: 26d5e303962140018f8ac926e2446d4d2427b6b3
 SHA256: aa75c88d7261e772c45fdada82b77f74e0724bb2d751c7bc97b6dbab2c9a87b1
 
+Package: com.korboy.copyvaultgrabber
+Name: CopyVaultGrabber
+Description: Drag the CopyVault panel to resize it + hardware keyboard support
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: Korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), com.squidforce.copyvault
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 172
+Filename: debs/com.korboy.copyvaultgrabber_1.0.1_iphoneos-arm64.deb
+Size: 10136
+MD5sum: 51cc5df3f120ab47b69f95e56b14f0da
+SHA1: a699af96f10c4a731692303c75804c7132ed1c4e
+SHA256: 88e35ce39b3a6f0fd363f436277a4ae60004292ecf109140230e02df9a6ceba0
+
