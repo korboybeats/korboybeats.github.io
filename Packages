@@ -645,3 +645,21 @@ MD5sum: fb4e7c2b48dde3ff33de9ff236351e43
 SHA1: b816470c00a116523b8cf67a13d080b509bf2ff0
 SHA256: de943bf567c71c3f89fa35d00aaccc6f08fc9ceec4f0c533112bbac5de3ef382
 
+Package: com.korboy.icli
+Name: icli
+Version: 1.0.0+korboy16
+Architecture: iphoneos-arm64
+Maintainer: icli
+Depends: firmware (>= 14.0)
+Provides: com.icli.icli (= 1.0.0+korboy16)
+Conflicts: com.icli.icli
+Replaces: com.icli.icli
+Section: Development
+Description: On-device iOS control CLI
+Suggests: com.korboy.parallel (>= 1.0.0)
+Filename: debs/com.korboy.icli_1.0.0+korboy16_iphoneos-arm64.deb
+Size: 4521412
+MD5sum: 447d0f3c40db761e9700757dbf9e64a8
+SHA1: be6bb3a3ba92f87cc6adb57c750270b76a3e3002
+SHA256: 2d868077ac8663558e6f7c7b7ce4271e6c2c748c80a92661190722fb636573ed
+
